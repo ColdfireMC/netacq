@@ -3,7 +3,7 @@ Datalogger de I2C. Contiene porciones de los siguientes autores
 * Alex Forencich: verilog-ethernet
 * Luke Renaud, Digilent: i2c-demo
 
-## Instrucciones de uso:
+## Instrucciones de uso
 
 El sistema comienza a adquirir automáticamente una vez encendido, de 192.168.1.128:1234 al 192.168.1.2:54638. El sistema envía una ráfaga de 3 tramas UDP. Cada muestra es de 64bit con un formato como este
 
