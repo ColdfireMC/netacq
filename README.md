@@ -8,6 +8,8 @@ Datalogger de I2C. Contiene porciones de los siguientes autores
 El sistema comienza a adquirir automáticamente una vez encendido, de 192.168.1.128:1234 al 192.168.1.2:54638. El sistema envía una ráfaga de 3 tramas UDP. Cada muestra es de 64bit con un formato como este
 
 
+
+
 Los tipos son big endian. El timestamp corre a 25MHz.Puede configurarse desde el código fuente la frecuencia del bus i2c, con ello aumenta la frecuencia de muestreo con la siguiente expresión
 
 
@@ -35,7 +37,7 @@ El i2c está en modo normal, no en modo estiramiento de reloj, por lo que deben 
 
 ## Posibles Upgrades
 
-* Ráfagas más largas: Es posible en una trama UDP, empaquetar 64kbytes. Cada ráfaga del fifo tiene como máximo 512 muestras, por lo que cada ráfaga del fifo sería de 4kb. vaciando el fifo varias veces y marcando la señal * tlast * al final, es posible consolidar tal trama
+* Ráfagas más largas: Es posible en una trama UDP, empaquetar 64kbytes. Cada ráfaga del fifo tiene como máximo 512 muestras, por lo que cada ráfaga del fifo sería de 4kb. vaciando el fifo varias veces y marcando la señal `tlast` al final, es posible consolidar tal trama
 
 * Modo de alargamiento de reloj i2c: El modo de alargamiento de reloj, aunque baja el troughput, puede estabilizar el dispositivo i2c y cargarlo. Esto permite aumentar largamente las frecuencias de operación (sobre el MHz de SCL).
 
