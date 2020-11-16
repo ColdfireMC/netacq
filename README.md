@@ -24,11 +24,48 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 ![Máquina de estados del FIFO](https://github.com/ColdfireMC/netacq/blob/main/diags/fifo_comp3.svg "Máquina de estados del FIFO")
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
+| Timestamp: ocontrol                                     |
+|:-------------------------------------------------------:|
+| Estado        | Señal          | Valor                  |
+| ------------- |:--------------:|:----------------------:|
+| init          | out_valid      |             0          |
+|               | out_data_input |             0          |
+|               | burst_ready    |             0          |
+| wait_1st      | out_valid      |             0          |
+|               | out_data_input |             0          |
+|               | burst_ready    |             0          |
+| wait_others   | out_valid      |             0          |
+|               | out_data_input |             0          |
+|               | burst_ready    |             0          |
+| output_valid  | out_valid      |             0          |
+|               | out_data_input |             0          |
+|               | burst_ready    |             0          |
+| out_chan0     | out_valid      |             0          |
+|               | out_data_input |   reg_packed_sample0   |
+|               | burst_ready    |             0          |
+| signal_chan0  | out_valid      |             1          |
+|               | out_data_input |   reg_packed_sample0   |
+|               | burst_ready    |             0          |
+| out_chan1     | out_valid      |             0          |
+|               | out_data_input |   reg_packed_sample1   |
+|               | burst_ready    |             0          |
+| signal_chan1  | out_valid      |             1          |
+|               | out_data_input |   reg_packed_sample1   |
+|               | burst_ready    |             0          |
+| out_chan2     | out_valid      |             0          |
+|               | out_data_input |   reg_packed_sample2   |
+|               | burst_ready    |             0          |
+| signal_chan2  | out_valid      |             1          |
+|               | out_data_input |   reg_packed_sample2   |
+|               | burst_ready    |             0          |
+| out_term      | out_valid      |             0          |
+|               | out_data_input |             0          |
+|               | burst_ready    |             1          |
+
+
+
+
 
 pendiente: Tablas con las salidas(son demasiadas como para incorporarlas al diagrama)
 
