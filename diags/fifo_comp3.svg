@@ -1,0 +1,1025 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generado por Microsoft Visio, SVG Export fifo_comp3.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.9348in" height="9.17565in"
+		viewBox="0 0 571.306 660.647" xml:space="preserve" color-interpolation-filters="sRGB" class="st11">
+	<v:documentProperties v:langID="13322" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75;visibility:hidden}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st5 {fill:#000000;font-family:Calibri;font-size:0.666664em}
+		.st6 {font-size:1em}
+		.st7 {marker-end:url(#mrkr4-56);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st8 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.11764705882353}
+		.st9 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st10 {marker-end:url(#mrkr4-64);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st11 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-56" class="st8" v:arrowType="4" v:arrowSize="1" v:setback="15.5" refX="-15.5" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-8.5,-8.5) "/>
+		</marker>
+		<marker id="mrkr4-64" class="st8" v:arrowType="4" v:arrowSize="1" v:setback="17" refX="-17" orient="auto"
+				markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-8.5,-8.5) "/>
+		</marker>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Página-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Diagrama de flujo" v:index="0"/>
+		<v:layer v:name="Conector" v:index="1"/>
+		<v:layer v:name="Contenedor" v:index="2"/>
+		<g id="group17-1" transform="translate(18.375,-148.448)" v:mID="17" v:groupContext="group" v:layerMember="2">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.23622047244094):24"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT4(2)"/>
+				<v:ud v:nameU="MultiFormat" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
+				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+			</v:userDefs>
+			<title>Instantánea</title>
+			<g id="shape17-2" v:mID="17" v:groupContext="groupContent" v:layerMember="2">
+				<rect x="0" y="167.039" width="174.663" height="493.608" class="st1"/>
+			</g>
+			<g id="shape18-4" v:mID="18" v:groupContext="shape" v:layerMember="2">
+				<title>Hoja.18</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT4(2)"/>
+					<v:ud v:nameU="MultiFormat" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Margin" v:prompt="" v:val="VT0(0.23622047244094):24"/>
+					<v:ud v:nameU="HdrHgt" v:prompt="" v:val="VT0(0.31116263699002):1"/>
+				</v:userDefs>
+				<path d="M0 660.65 L174.66 660.65 L174.66 652.14 L0 652.14 L0 660.65 Z" class="st2"/>
+			</g>
+			<g id="shape19-6" v:mID="19" v:groupContext="shape" v:layerMember="2" transform="translate(0,-471.205)">
+				<title>Hoja.19</title>
+				<desc>icontrol_state</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="87.3315" cy="649.445" width="78.9" height="22.4037"/>
+				<rect x="0" y="638.243" width="174.663" height="22.4037" class="st2"/>
+				<text x="53.24" y="653.05" class="st3" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>icontrol_state</text>			</g>
+		</g>
+		<g id="group68-9" transform="translate(198.8,-18.375)" v:mID="68" v:groupContext="group" v:layerMember="2">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.23622047244094):24"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT4(2)"/>
+				<v:ud v:nameU="MultiFormat" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
+				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+			</v:userDefs>
+			<title>Instantánea.68</title>
+			<g id="shape68-10" v:mID="68" v:groupContext="groupContent" v:layerMember="2">
+				<rect x="0" y="36.75" width="195.021" height="623.897" class="st1"/>
+			</g>
+			<g id="shape69-12" v:mID="69" v:groupContext="shape" v:layerMember="2">
+				<title>Hoja.69</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT4(2)"/>
+					<v:ud v:nameU="MultiFormat" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Margin" v:prompt="" v:val="VT0(0.23622047244094):24"/>
+					<v:ud v:nameU="HdrHgt" v:prompt="" v:val="VT0(0.31116263699002):1"/>
+				</v:userDefs>
+				<path d="M0 660.65 L195.02 660.65 L195.02 652.14 L0 652.14 L0 660.65 Z" class="st2"/>
+			</g>
+			<g id="shape70-14" v:mID="70" v:groupContext="shape" v:layerMember="2" transform="translate(0,-601.493)">
+				<title>Hoja.70</title>
+				<desc>ocontrol_state</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="97.5107" cy="649.445" width="82.47" height="22.4037"/>
+				<rect x="0" y="638.243" width="195.021" height="22.4037" class="st2"/>
+				<text x="61.64" y="653.05" class="st3" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>ocontrol_state</text>			</g>
+		</g>
+		<g id="group101-17" transform="translate(398.769,-131.492)" v:mID="101" v:groupContext="group" v:layerMember="2">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Container)"/>
+				<v:ud v:nameU="msvSDContainerMargin" v:prompt="" v:val="VT0(0.23622047244094):24"/>
+				<v:ud v:nameU="msvSDContainerResize" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="msvSDHeadingStyleCount" v:prompt="" v:val="VT0(4):26"/>
+				<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT4(2)"/>
+				<v:ud v:nameU="MultiFormat" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvShapeCategories" v:prompt="" v:val="VT4(ContainerStyleDefaults)"/>
+				<v:ud v:nameU="msvSDContainerStyleCount" v:prompt="" v:val="VT0(14):26"/>
+				<v:ud v:nameU="msvSDContainerLocked" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoHighlight" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerNoRibbon" v:prompt="" v:val="VT0(0):5"/>
+				<v:ud v:nameU="msvSDContainerRequiredCategories" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="msvSDContainerExcludedCategories" v:prompt="" v:val="VT4(DoNotContain)"/>
+			</v:userDefs>
+			<title>Instantánea.101</title>
+			<g id="shape101-18" v:mID="101" v:groupContext="groupContent" v:layerMember="2">
+				<rect x="0" y="149.867" width="154.162" height="510.78" class="st1"/>
+			</g>
+			<g id="shape102-20" v:mID="102" v:groupContext="shape" v:layerMember="2">
+				<title>Hoja.102</title>
+				<v:userDefs>
+					<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="Embellishment" v:prompt="" v:val="VT4(2)"/>
+					<v:ud v:nameU="MultiFormat" v:prompt="" v:val="VT0(0):26"/>
+					<v:ud v:nameU="Margin" v:prompt="" v:val="VT0(0.23622047244094):24"/>
+					<v:ud v:nameU="HdrHgt" v:prompt="" v:val="VT0(0.31116263699002):1"/>
+				</v:userDefs>
+				<path d="M0 660.65 L154.16 660.65 L154.16 652.14 L0 652.14 L0 660.65 Z" class="st2"/>
+			</g>
+			<g id="shape103-22" v:mID="103" v:groupContext="shape" v:layerMember="2" transform="translate(0,-488.376)">
+				<title>Hoja.103</title>
+				<desc>mcontrol_state</desc>
+				<v:userDefs>
+					<v:ud v:nameU="msvStructureType" v:prompt="" v:val="VT4(Heading)"/>
+					<v:ud v:nameU="msvSDHeadingStyle" v:prompt="" v:val="VT0(1):26"/>
+					<v:ud v:nameU="msvSDContainerHeadingEdge" v:prompt="" v:val="VT4(Bottom)"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="77.0808" cy="649.445" width="85.73" height="22.4037"/>
+				<rect x="0" y="638.243" width="154.162" height="22.4037" class="st2"/>
+				<text x="39.58" y="653.05" class="st3" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>mcontrol_state</text>			</g>
+		</g>
+		<g id="group1-25" transform="translate(35.3829,-565.726)" v:mID="1" v:groupContext="group" v:layerMember="0">
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Estado de inicio</title>
+			<desc>Init</desc>
+			<g id="shape2-26" v:mID="2" v:groupContext="shape" v:layerMember="0">
+				<title>Hoja.2</title>
+				<path d="M0 642.19 A18.4595 18.4595 0 0 1 36.92 642.19 A18.4595 18.4595 0 1 1 0 642.19 Z" class="st4"/>
+			</g>
+			<g id="shape3-28" v:mID="3" v:groupContext="shape" v:layerMember="0" transform="translate(3.6919,-3.6919)">
+				<title>Hoja.3</title>
+				<path d="M0 645.88 A14.7676 14.7676 0 0 1 29.54 645.88 A14.7676 14.7676 0 1 1 0 645.88 Z" class="st4"/>
+			</g>
+			<g id="shape1-30" v:mID="1" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="18.4595" cy="642.188" width="36.92" height="36.919"/>
+				<text x="13.09" y="644.59" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>Init</text>			</g>
+		</g>
+		<g id="shape4-32" v:mID="4" v:groupContext="shape" v:layerMember="0" transform="translate(139.111,-565.726)">
+			<title>Estado</title>
+			<desc>wait_others</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.4595" cy="642.188" width="36.92" height="36.919"/>
+			<path d="M0 642.19 A18.4595 18.4595 0 0 1 36.92 642.19 A18.4595 18.4595 0 1 1 0 642.19 Z" class="st4"/>
+			<text x="1.89" y="639.79" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>wait_othe<tspan
+						x="15.5" dy="1.2em" class="st6">rs</tspan></text>		</g>
+		<g id="shape5-36" v:mID="5" v:groupContext="shape" v:layerMember="0" transform="translate(139.111,-485.672)">
+			<title>Estado.5</title>
+			<desc>wait_1st</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.4595" cy="642.188" width="36.92" height="36.919"/>
+			<path d="M0 642.19 A18.4595 18.4595 0 0 1 36.92 642.19 A18.4595 18.4595 0 1 1 0 642.19 Z" class="st4"/>
+			<text x="4.5" y="644.59" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>wait_1st</text>		</g>
+		<g id="shape6-39" v:mID="6" v:groupContext="shape" v:layerMember="0" transform="translate(139.111,-405.618)">
+			<title>Estado.6</title>
+			<desc>valid_in</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.4595" cy="642.188" width="36.92" height="36.919"/>
+			<path d="M0 642.19 A18.4595 18.4595 0 0 1 36.92 642.19 A18.4595 18.4595 0 1 1 0 642.19 Z" class="st4"/>
+			<text x="5.79" y="644.59" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>valid_in</text>		</g>
+		<g id="shape7-42" v:mID="7" v:groupContext="shape" v:layerMember="0" transform="translate(139.111,-325.564)">
+			<title>Estado.7</title>
+			<desc>write_1</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.4595" cy="642.188" width="36.92" height="36.919"/>
+			<path d="M0 642.19 A18.4595 18.4595 0 0 1 36.92 642.19 A18.4595 18.4595 0 1 1 0 642.19 Z" class="st4"/>
+			<text x="5.94" y="644.59" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>write_1</text>		</g>
+		<g id="shape8-45" v:mID="8" v:groupContext="shape" v:layerMember="0" transform="translate(139.111,-245.51)">
+			<title>Estado.8</title>
+			<desc>write_2</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.4595" cy="642.188" width="36.92" height="36.919"/>
+			<path d="M0 642.19 A18.4595 18.4595 0 0 1 36.92 642.19 A18.4595 18.4595 0 1 1 0 642.19 Z" class="st4"/>
+			<text x="5.94" y="644.59" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>write_2</text>		</g>
+		<g id="shape9-48" v:mID="9" v:groupContext="shape" v:layerMember="0" transform="translate(139.111,-165.456)">
+			<title>Estado.9</title>
+			<desc>is_full</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="18.4595" cy="642.188" width="36.92" height="36.919"/>
+			<path d="M0 642.19 A18.4595 18.4595 0 0 1 36.92 642.19 A18.4595 18.4595 0 1 1 0 642.19 Z" class="st4"/>
+			<text x="8.83" y="644.59" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>is_full</text>		</g>
+		<g id="shape10-51" v:mID="10" v:groupContext="shape" v:layerMember="1"
+				transform="translate(457.478,-446.542) rotate(37.6597)">
+			<title>De centro a centro 1</title>
+			<desc>mcontrol_state=ready</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="65.5138" cy="642.725" width="108" height="36" transform="rotate(-37.6597)"/>
+			<path d="M11.73 646.39 A77.7936 77.7936 0 0 1 116.28 643.65 L116.55 643.89" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="-377.029" y="544.042" width="72.4134" height="9.59985" transform="rotate(-37.6597)"
+					class="st9"/>
+			<text x="-377.03" y="551.24" transform="rotate(-37.6597)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>mcontrol_state=ready</text>		</g>
+		<g id="shape11-59" v:mID="11" v:groupContext="shape" v:layerMember="1" transform="translate(818.218,76.4616) rotate(90)">
+			<title>De centro a centro 1.11</title>
+			<desc>(in_valid and not almost_full)= 1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.027" cy="660.647" width="108" height="36" transform="rotate(-90)"/>
+			<path d="M18.46 660.65 L57.51 660.65" class="st10"/>
+			<rect v:rectContext="textBkgnd" x="-713.244" y="35.2271" width="105.195" height="9.59985" transform="rotate(-90)"
+					class="st9"/>
+			<text x="-713.24" y="42.43" transform="rotate(-90)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>(in_valid and not almost_full)= 1</text>		</g>
+		<g id="shape12-67" v:mID="12" v:groupContext="shape" v:layerMember="1" transform="translate(818.218,156.516) rotate(90)">
+			<title>De centro a centro 1.12</title>
+			<desc>in_valid=1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="40.027" cy="660.647" width="108" height="36" transform="rotate(-90)"/>
+			<path d="M18.46 660.65 L57.51 660.65" class="st10"/>
+			<rect v:rectContext="textBkgnd" x="-677.339" y="35.2271" width="33.3828" height="9.59985" transform="rotate(-90)"
+					class="st9"/>
+			<text x="-677.34" y="42.43" transform="rotate(-90)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>in_valid=1</text>		</g>
+		<g id="shape13-74" v:mID="13" v:groupContext="shape" v:layerMember="1" transform="translate(818.218,236.57) rotate(90)">
+			<title>De centro a centro 1.13</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M18.46 660.65 L57.51 660.65" class="st10"/>
+		</g>
+		<g id="shape14-79" v:mID="14" v:groupContext="shape" v:layerMember="1" transform="translate(818.218,316.624) rotate(90)">
+			<title>De centro a centro 1.14</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M18.46 660.65 L57.51 660.65" class="st10"/>
+		</g>
+		<g id="shape15-84" v:mID="15" v:groupContext="shape" v:layerMember="1" transform="translate(818.218,396.678) rotate(90)">
+			<title>De centro a centro 1.15</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M18.46 660.65 L57.51 660.65" class="st10"/>
+		</g>
+		<g id="shape16-89" v:mID="16" v:groupContext="shape" v:layerMember="1" transform="translate(-503.076,476.732) rotate(-90)">
+			<title>De centro a centro 1.16</title>
+			<desc>almost_full=0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="160.108" cy="610.396" width="108" height="36" transform="rotate(90)"/>
+			<path d="M8.88 644.46 A177.783 177.783 0 0 1 309.16 641.02 L309.35 641.32" class="st7"/>
+			<rect v:rectContext="textBkgnd" x="588.183" y="-164.908" width="44.4254" height="9.59985" transform="rotate(90)"
+					class="st9"/>
+			<text x="588.18" y="-157.71" transform="rotate(90)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>almost_full=0</text>		</g>
+		<g id="shape20-96" v:mID="20" v:groupContext="shape" v:layerMember="0" transform="translate(276.795,-563.829)">
+			<title>Estado.20</title>
+			<desc>read_byte1</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">1</tspan></text>		</g>
+		<g id="group22-100" transform="translate(215.808,-563.829)" v:mID="22" v:groupContext="group" v:layerMember="0">
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Estado de inicio.22</title>
+			<desc>init</desc>
+			<g id="shape23-101" v:mID="23" v:groupContext="shape" v:layerMember="0">
+				<title>Hoja.23</title>
+				<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			</g>
+			<g id="shape24-103" v:mID="24" v:groupContext="shape" v:layerMember="0" transform="translate(3.90317,-3.90317)">
+				<title>Hoja.24</title>
+				<path d="M0 645.03 A15.6127 15.6127 0 0 1 31.23 645.03 A15.6127 15.6127 0 0 1 0 645.03 Z" class="st4"/>
+			</g>
+			<g id="shape22-105" v:mID="22" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+				<text x="14.24" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>init</text>			</g>
+		</g>
+		<g id="shape37-107" v:mID="37" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-496.859)">
+			<title>Estado.37</title>
+			<desc>read_byte2</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">2</tspan></text>		</g>
+		<g id="shape38-111" v:mID="38" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-450.712)">
+			<title>Estado.38</title>
+			<desc>read_byte3</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">3</tspan></text>		</g>
+		<g id="shape39-115" v:mID="39" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-404.564)">
+			<title>Estado.39</title>
+			<desc>read_byte4</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">4</tspan></text>		</g>
+		<g id="shape40-119" v:mID="40" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-358.416)">
+			<title>Estado.40</title>
+			<desc>read_byte5</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">5</tspan></text>		</g>
+		<g id="shape41-123" v:mID="41" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-312.269)">
+			<title>Estado.41</title>
+			<desc>read_byte6</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">6</tspan></text>		</g>
+		<g id="shape42-127" v:mID="42" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-266.121)">
+			<title>Estado.42</title>
+			<desc>read_byte7</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">7</tspan></text>		</g>
+		<g id="shape43-131" v:mID="43" v:groupContext="shape" v:layerMember="0" transform="translate(337.782,-563.829)">
+			<title>Estado.43</title>
+			<desc>read_byte0</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.88" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_byte<tspan
+						x="17.49" dy="1.2em" class="st6">0</tspan></text>		</g>
+		<g id="shape44-135" v:mID="44" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-173.826)">
+			<title>Estado.44</title>
+			<desc>is_empty</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="4.6" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>is_empty</text>		</g>
+		<g id="shape45-138" v:mID="45" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-219.973)">
+			<title>Estado.45</title>
+			<desc>valid_out</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="4.31" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>valid_out</text>		</g>
+		<g id="shape46-141" v:mID="46" v:groupContext="shape" v:layerMember="0" transform="translate(337.782,-127.678)">
+			<title>Estado.46</title>
+			<desc>read_1</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="8.09" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_1</text>		</g>
+		<g id="shape47-144" v:mID="47" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-127.678)">
+			<title>Estado.47</title>
+			<desc>wait_1st</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="5.56" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>wait_1st</text>		</g>
+		<g id="shape48-147" v:mID="48" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-81.5305)">
+			<title>Estado.48</title>
+			<desc>header_send</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="2.47" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>header_se<tspan
+						x="15.31" dy="1.2em" class="st6">nd</tspan></text>		</g>
+		<g id="shape49-151" v:mID="49" v:groupContext="shape" v:layerMember="0" transform="translate(284.113,-35.3829)">
+			<title>Estado.49</title>
+			<desc>header_wait</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="1.25" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>header_wa<tspan
+						x="17.26" dy="1.2em" class="st6">it</tspan></text>		</g>
+		<g id="shape50-155" v:mID="50" v:groupContext="shape" v:layerMember="0" transform="translate(337.782,-358.416)">
+			<title>Estado.50</title>
+			<desc>read_2</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="8.09" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read_2</text>		</g>
+		<g id="shape51-158" v:mID="51" v:groupContext="shape" v:layerMember="1"
+				transform="translate(-372.05,590.292) rotate(-96.6791)">
+			<title>De centro a centro 1.51</title>
+			<desc>mcontrol_state=ready</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="209.741" cy="660.647" width="108" height="36" transform="rotate(96.6791)"/>
+			<path d="M419.48 660.65 L4.08 660.65" class="st10"/>
+			<rect v:rectContext="textBkgnd" x="595.562" y="-289.957" width="72.4134" height="9.59985" transform="rotate(96.6791)"
+					class="st9"/>
+			<text x="595.56" y="-282.76" transform="rotate(96.6791)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>mcontrol_state=ready</text>		</g>
+		<g id="shape52-165" v:mID="52" v:groupContext="shape" v:layerMember="1" transform="translate(357.298,737.949) rotate(180)">
+			<title>De centro a centro 1.52</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M6.43 642.22 A30.495 30.495 0 0 1 51.84 639.18 L52.08 639.44" class="st7"/>
+		</g>
+		<g id="shape53-170" v:mID="53" v:groupContext="shape" v:layerMember="1"
+				transform="translate(953.048,5.53421) rotate(83.7635)">
+			<title>De centro a centro 1.53</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L43.77 660.65" class="st10"/>
+		</g>
+		<g id="shape54-175" v:mID="54" v:groupContext="shape" v:layerMember="1" transform="translate(-357.018,190.42) rotate(-90)">
+			<title>De centro a centro 1.54</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M26.63 660.65 L23.6 660.65" class="st10"/>
+		</g>
+		<g id="shape55-180" v:mID="55" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,190.42) rotate(90)">
+			<title>De centro a centro 1.55</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape56-185" v:mID="56" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,236.567) rotate(90)">
+			<title>De centro a centro 1.56</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape57-190" v:mID="57" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,282.715) rotate(90)">
+			<title>De centro a centro 1.57</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape58-195" v:mID="58" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,328.863) rotate(90)">
+			<title>De centro a centro 1.58</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape59-200" v:mID="59" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,375.01) rotate(90)">
+			<title>De centro a centro 1.59</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape61-205" v:mID="61" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,421.158) rotate(90)">
+			<title>De centro a centro 1.61</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape62-210" v:mID="62" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,467.305) rotate(90)">
+			<title>De centro a centro 1.62</title>
+			<desc>empty_i=0</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.0738" cy="660.647" width="108" height="36" transform="rotate(-90)"/>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+			<rect v:rectContext="textBkgnd" x="-678.014" y="18.2739" width="34.7341" height="9.59985" transform="rotate(-90)"
+					class="st9"/>
+			<text x="-678.01" y="25.47" transform="rotate(-90)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>empty_i=0</text>		</g>
+		<g id="shape63-217" v:mID="63" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,513.453) rotate(90)">
+			<title>De centro a centro 1.63</title>
+			<desc>hdr_tready=1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="23.0738" cy="660.647" width="108" height="36" transform="rotate(-90)"/>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+			<rect v:rectContext="textBkgnd" x="-682.809" y="18.2739" width="44.3243" height="9.59985" transform="rotate(-90)"
+					class="st9"/>
+			<text x="-682.81" y="25.47" transform="rotate(-90)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>hdr_tready=1</text>		</g>
+		<g id="shape64-224" v:mID="64" v:groupContext="shape" v:layerMember="1" transform="translate(964.276,559.601) rotate(90)">
+			<title>De centro a centro 1.64</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape65-229" v:mID="65" v:groupContext="shape" v:layerMember="1"
+				transform="translate(-296.443,376.477) rotate(-69.6936)">
+			<title>De centro a centro 1.65</title>
+			<desc>tready=1</desc>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="49.2057" cy="660.647" width="108" height="36" transform="rotate(69.6936)"/>
+			<path d="M0 660.65 L74.82 660.65" class="st10"/>
+			<rect v:rectContext="textBkgnd" x="622.092" y="178.323" width="29.1445" height="9.59985" transform="rotate(69.6936)"
+					class="st9"/>
+			<text x="622.09" y="185.52" transform="rotate(69.6936)" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>tready=1</text>		</g>
+		<g id="shape66-236" v:mID="66" v:groupContext="shape" v:layerMember="1" transform="translate(-303.349,513.453) rotate(-90)">
+			<title>De centro a centro 1.66</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L207.14 660.65" class="st10"/>
+		</g>
+		<g id="shape67-241" v:mID="67" v:groupContext="shape" v:layerMember="1" transform="translate(-303.349,282.715) rotate(-90)">
+			<title>De centro a centro 1.67</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L181.82 660.65" class="st10"/>
+		</g>
+		<g id="shape75-246" v:mID="75" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-517.681)">
+			<title>Estado.75</title>
+			<desc>init2</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="12.21" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>init2</text>		</g>
+		<g id="shape76-249" v:mID="76" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-471.534)">
+			<title>Estado.76</title>
+			<desc>init3</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="12.21" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>init3</text>		</g>
+		<g id="shape77-252" v:mID="77" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-425.386)">
+			<title>Estado.77</title>
+			<desc>init4</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="12.21" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>init4</text>		</g>
+		<g id="shape78-255" v:mID="78" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-379.238)">
+			<title>Estado.78</title>
+			<desc>init5</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="12.21" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>init5</text>		</g>
+		<g id="shape79-258" v:mID="79" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-333.091)">
+			<title>Estado.79</title>
+			<desc>init6</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="12.21" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>init6</text>		</g>
+		<g id="shape80-261" v:mID="80" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-286.943)">
+			<title>Estado.80</title>
+			<desc>wait_empty1</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="1.86" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>wait_empt<tspan
+						x="15.68" dy="1.2em" class="st6">y1</tspan></text>		</g>
+		<g id="shape81-265" v:mID="81" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-194.648)">
+			<title>Estado.81</title>
+			<desc>wait_empty3</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="1.86" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>wait_empt<tspan
+						x="15.68" dy="1.2em" class="st6">y3</tspan></text>		</g>
+		<g id="shape82-269" v:mID="82" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-240.795)">
+			<title>Estado.82</title>
+			<desc>wait_empty2</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+			<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			<text x="1.86" y="638.73" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>wait_empt<tspan
+						x="15.68" dy="1.2em" class="st6">y2</tspan></text>		</g>
+		<g id="shape86-273" v:mID="86" v:groupContext="shape" v:layerMember="1" transform="translate(-184.797,169.598) rotate(-90)">
+			<title>De centro a centro 1.86</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M26.63 660.65 L23.6 660.65" class="st10"/>
+		</g>
+		<g id="shape87-278" v:mID="87" v:groupContext="shape" v:layerMember="1" transform="translate(1136.5,169.598) rotate(90)">
+			<title>De centro a centro 1.87</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape88-283" v:mID="88" v:groupContext="shape" v:layerMember="1" transform="translate(1136.5,215.745) rotate(90)">
+			<title>De centro a centro 1.88</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape89-288" v:mID="89" v:groupContext="shape" v:layerMember="1" transform="translate(1136.5,261.893) rotate(90)">
+			<title>De centro a centro 1.89</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape90-293" v:mID="90" v:groupContext="shape" v:layerMember="1" transform="translate(1136.5,308.041) rotate(90)">
+			<title>De centro a centro 1.90</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape91-298" v:mID="91" v:groupContext="shape" v:layerMember="1" transform="translate(1136.5,354.188) rotate(90)">
+			<title>De centro a centro 1.91</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape92-303" v:mID="92" v:groupContext="shape" v:layerMember="1" transform="translate(1136.5,400.336) rotate(90)">
+			<title>De centro a centro 1.92</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="shape93-308" v:mID="93" v:groupContext="shape" v:layerMember="1" transform="translate(1136.5,446.483) rotate(90)">
+			<title>De centro a centro 1.93</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M19.52 660.65 L22.55 660.65" class="st10"/>
+		</g>
+		<g id="group96-313" transform="translate(456.334,-563.829)" v:mID="96" v:groupContext="group" v:layerMember="0">
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Estado de inicio.96</title>
+			<desc>init</desc>
+			<g id="shape97-314" v:mID="97" v:groupContext="shape" v:layerMember="0">
+				<title>Hoja.97</title>
+				<path d="M0 641.13 A19.5158 19.5158 0 0 1 39.03 641.13 A19.5158 19.5158 0 1 1 0 641.13 Z" class="st4"/>
+			</g>
+			<g id="shape98-316" v:mID="98" v:groupContext="shape" v:layerMember="0" transform="translate(3.90317,-3.90317)">
+				<title>Hoja.98</title>
+				<path d="M0 645.03 A15.6127 15.6127 0 0 1 31.23 645.03 A15.6127 15.6127 0 0 1 0 645.03 Z" class="st4"/>
+			</g>
+			<g id="shape96-318" v:mID="96" v:groupContext="groupContent" v:layerMember="0">
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="19.5158" cy="641.131" width="39.04" height="39.0317"/>
+				<text x="14.24" y="643.53" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>init</text>			</g>
+		</g>
+		<g id="shape99-320" v:mID="99" v:groupContext="shape" v:layerMember="1" transform="translate(-184.797,123.45) rotate(-90)">
+			<title>De centro a centro 1.99</title>
+			<v:userDefs>
+				<v:ud v:nameU="ScaleFactor" v:val="VT0(1):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<path d="M26.63 660.65 L23.6 660.65" class="st10"/>
+		</g>
+		<g id="shape100-325" v:mID="100" v:groupContext="shape" v:layerMember="0" transform="translate(456.334,-148.5)">
+			<title>Estado de detención 2</title>
+			<desc>ready</desc>
+			<v:custProps>
+				<v:cp v:nameU="Cost" v:lbl="Coste" v:type="7" v:format="@" v:langID="3082"/>
+				<v:cp v:nameU="Duration" v:lbl="Duración" v:type="2" v:langID="3082"/>
+				<v:cp v:nameU="Resources" v:lbl="Recursos" v:langID="3082"/>
+			</v:custProps>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="19.5158" cy="631.373" width="19.52" height="19.5158"/>
+			<path d="M0 621.62 L19.52 660.65 L39.03 621.62 L0 621.62 Z" class="st4"/>
+			<text x="12.11" y="628.97" class="st5" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>read<tspan x="17.71"
+						dy="1.2em" class="st6">y</tspan></text>		</g>
+	</g>
+</svg>
