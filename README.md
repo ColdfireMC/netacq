@@ -7,7 +7,7 @@ Datalogger de I2C. Contiene porciones de los siguientes autores
 
 El sistema comienza a adquirir automáticamente una vez encendido, de 192.168.1.128:1234 al 192.168.1.2:54638. El sistema envía una ráfaga de 3 tramas UDP. Cada muestra es de 64bit con un formato como este
 
-
+![tipo de la muestra](https://github.com/ColdfireMC/netacq/blob/main/diags/sampletype.svg "Tipo de la muestra")
 
 
 Los tipos son big endian. El timestamp corre a 25MHz.Puede configurarse desde el código fuente la frecuencia del bus i2c, con ello aumenta la frecuencia de muestreo con la siguiente expresión
