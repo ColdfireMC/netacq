@@ -17,7 +17,10 @@ El i2c está en modo normal, no en modo estiramiento de reloj, por lo que deben 
 
 ## Detalles para nerds
 
+![Máquina de estados del FIFO](https://github.com/ColdfireMC/netacq/blob/main/diags/fifo_comp3.svg "Máquina de estados del FIFO")
 
+
+![Máquina de estados del FIFO](https://github.com/ColdfireMC/netacq/blob/main/diags/timestamp.svg "Máquina de estados del timestamp")
 
 ### Estructura interna del sistema
 
@@ -30,8 +33,7 @@ El i2c está en modo normal, no en modo estiramiento de reloj, por lo que deben 
 
 
 ## Script de matlab
-
-
+Hay un script de matlab que hace adquisición basica. Cuenta con una calibración bastante "relajada". Matlab no tiene una buena gestión de eventos, por lo que no es suficientemente atraxctivo para intentar hacer una adquisición viva (Entiéndase, como un osciloscopio).
 
 
 
