@@ -25,6 +25,95 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 
 
 
+
+
+
+
+
+| Estado        | Señal          | Valor                  | | Estado                 | Señal                  | Valor                  |
+| ------------- |:--------------:|:----------------------:| | ---------------------- |:----------------------:|:----------------------:|
+| init          | out_valid      |             0          | | init                   | in_ready0              |             0          |
+|               | out_data_input |             0          | |                        | input_data0            |  reg_input_data0       |
+|               | burst_ready    |             0          | |                        | input_timestamp_snap0  |  timestamp_snap0       |
+| wait_1st      | out_valid      |             0          | |                        | packed_sample0         |  reg_packed_sample0    |
+|               | out_data_input |             0          | |                        | sequence_cnt0          |  reg_sequence_cnt0     |
+|               | burst_ready    |             0          | |                        | packed_sample_ready0   |             0          |
+| wait_others   | out_valid      |             0          | | wait_1st               | in_ready0              |             1          |
+|               | out_data_input |             0          | |                        | input_data0            |  in_data0              |
+|               | burst_ready    |             0          | |                        | input_timestamp_snap0  |  timestamp_snap0       |
+| output_valid  | out_valid      |             0          | |                        | packed_sample0         |  reg_packed_sample0    |
+|               | out_data_input |             0          | |                        | sequence_cnt0          |  reg_sequence_cnt0     |
+|               | burst_ready    |             0          | |                        | packed_sample_ready0   |             0          |
+| out_chan0     | out_valid      |             0          | | wait_others            | in_ready0              |             0          |                                                                       
+|               | out_data_input |   reg_packed_sample0   | |                        | input_data0            |     reg_input_data0    |
+|               | burst_ready    |             0          | |                        | input_timestamp_snap0  |     timestamp_snap0    |
+| signal_chan0  | out_valid      |             1          | |                        | packed_sample0         |  reg_packed_sample0    |
+|               | out_data_input |   reg_packed_sample0   | |                        | sequence_cnt0          |    reg_sequence_cnt0   |
+|               | burst_ready    |             0          | |                        | packed_sample_ready0   |             1          |
+| out_chan1     | out_valid      |             0          | | input_valid            | in_ready0              |             0          |
+|               | out_data_input |   reg_packed_sample1   | |                        | input_data0            |   in_data0             |
+|               | burst_ready    |             0          | |                        | input_timestamp_snap0  |   timestamp            |
+| signal_chan1  | out_valid      |             1          | |                        | packed_sample0         |   reg_packed_sample0   |
+|               | out_data_input |   reg_packed_sample1   | |                        | sequence_cnt0          |   reg_sequence_cnt0+1  |
+|               | burst_ready    |             0          | |                        | packed_sample_ready0   |             0          |
+| out_chan2     | out_valid      |             0          | | concat                 | in_ready0              |    0                   |
+|               | out_data_input |   reg_packed_sample2   | |                        | input_data0            |    reg_input_data0     |
+|               | burst_ready    |             0          | |                        | input_timestamp_snap0  |    timestamp_snap0     |
+| signal_chan2  | out_valid      |             1          | |                        | packed_sample0         |  std_logic_vector(reg_sequence_cnt0) & reg_input_data0 & std_logic_vector(timestamp_snap0) |
+|               | out_data_input |   reg_packed_sample2   | |                        | sequence_cnt0          |    reg_sequence_cnt0   |
+|               | burst_ready    |             0          | |                        | packed_sample_ready0   |                        |
+| out_term      | out_valid      |             0          | | store_packed_sample    | in_ready0              |             0          |
+|               | out_data_input |             0          | |                        | input_data0            |    reg_input_data0     |
+|               | burst_ready    |             1          | |                        | input_timestamp_snap0  |   timestamp_snap0      |
+                                                            |                        | packed_sample0         |    reg_packed_sample0  |
+                                                            |                        | sequence_cnt0          |     reg_sequence_cnt0  |
+                                                            |                        | packed_sample_ready0   |             1          |
+                                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 | Estado        | Señal          | Valor                  |
 | ------------- |:--------------:|:----------------------:|
 | init          | out_valid      |             0          |
