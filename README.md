@@ -22,7 +22,7 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 ### Máquinas de estado agregadas al sistema
 
 ![Máquina de estados del FIFO](https://github.com/ColdfireMC/netacq/blob/main/diags/fifo_comp3.svg "Máquina de estados del FIFO")
-
+### icontrol
 | Estado                 | Señal                  | Valor                  |                                                                                 
 | ---------------------- |:----------------------:|:----------------------:|                                                                                  
 | init                   | in_ready0              |             0          |                                                                                 
@@ -46,7 +46,7 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 | write_2                | in_ready0              |             0          |                                                                                 
 |                        | input_data0            |  reg_input_data       |                                                                                  
 |                        | fifo_write_enable      |  0       |                                                                                                                                                            
-
+## ocontrol
 | Estado                 | Señal                  | Valor                  |                                                                                 
 | ---------------------- |:----------------------:|:----------------------:| 
 | init                   | tvalid                 |             0          | 
@@ -129,10 +129,10 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 |                        | tdata                  |  fifo_data_out(7 downto 0) | 
 |                        | tlast                  |             1          |                                                                                 
 |                        | hdr_tvalid             |  0                     |
-pendiente: Tablas con las salidas(son demasiadas como para incorporarlas al diagrama)
+
 
 ![Máquina de estados del timestamp](https://github.com/ColdfireMC/netacq/blob/main/diags/timestamp.svg "Máquina de estados del timestamp")
-
+### ocontrol
 | Estado        | Señal          | Valor                  |
 | ------------- |:--------------:|:----------------------:|
 | init          | out_valid      |             0          |
@@ -169,7 +169,7 @@ pendiente: Tablas con las salidas(son demasiadas como para incorporarlas al diag
 |               | out_data_input |             0          |
 |               | burst_ready    |             1          |
 
-                                                            
+### icontrol                                                            
 | Estado                 | Señal                  | Valor                  |                                                                                 
 | ---------------------- |:----------------------:|:----------------------:|                                                                                  
 | init                   | in_ready0              |             0          |                                                                                 
