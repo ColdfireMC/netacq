@@ -25,8 +25,6 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 
 
 
-| Timestamp: ocontrol                                     |
-|:-------------------------------------------------------:|
 | Estado        | Señal          | Valor                  |
 | ------------- |:--------------:|:----------------------:|
 | init          | out_valid      |             0          |
