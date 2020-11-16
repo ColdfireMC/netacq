@@ -23,8 +23,115 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 
 ![Máquina de estados del FIFO](https://github.com/ColdfireMC/netacq/blob/main/diags/fifo_comp3.svg "Máquina de estados del FIFO")
 
+| Estado                 | Señal                  | Valor                  |                                                                                 
+| ---------------------- |:----------------------:|:----------------------:|                                                                                  
+| init                   | in_ready0              |             0          |                                                                                 
+|                        | input_data0            |  reg_input_data       |                                                                                  
+|                        | fifo_write_enable      |  0                     |                                                                                
+| wait_1st               | in_ready0              |             1          |                                                                                 
+|                        | input_data0            |  reg_input_data       |                                                                                  
+|                        | fifo_write_enable      |  0       |                                                                                
+| is_full                | in_ready0              |             0          |                                                                                 
+|                        | input_data0            |  reg_input_data       |                                                                                  
+|                        | fifo_write_enable      |  0       |                                                                                
+| wait_others             | in_ready0              |             0          |                                                                                 
+|                        | input_data0            |  reg_input_data       |                                                                                  
+|                        | fifo_write_enable      |  0      |                                                                                
+| valid_in               | in_ready0              |             1          |                                                                                 
+|                        | input_data0            |  in_data       |                                                                                  
+|                        | fifo_write_enable      |  0       |                                                                                
+| write_1                | in_ready0              |             0        |                                                                                 
+|                        | input_data0            |  reg_input_data       |                                                                                  
+|                        | fifo_write_enable      |             1      |                                                                                
+| write_2                | in_ready0              |             0          |                                                                                 
+|                        | input_data0            |  reg_input_data       |                                                                                  
+|                        | fifo_write_enable      |  0       |                                                                                                                                                            
 
+| Estado                 | Señal                  | Valor                  |                                                                                 
+| ---------------------- |:----------------------:|:----------------------:| 
+| init                   | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |             0          | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |             0          | 
+| wait_1st               | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  0                     | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                                                                                  
+| is_empty               | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  0                     | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |
+| valid_out              | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  0                     | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                                                                                  
+| header_send            | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  0                     | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  1                     |                                                                                  
+| header_wait            | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  0                     | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                                                                                  
+| read_1                 | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             1          | 
+|                        | tdata                  |  0                     | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                                                                                  
+| read_2                 | tvalid                 |             0          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  0                     | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |
+| read_byte0             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  fifo_data_out(63 downto 56) | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                                                                                  
+| read_byte1             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  | fifo_data_out(55 downto 48)  | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                                                                                  
+| read_byte2             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  | fifo_data_out(47 downto 40)| 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                                                                                  
+| read_byte3             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  fifo_data_out(39 downto 32) | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                
+| read_byte4             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  fifo_data_out(31 downto 24)| 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                
+| read_byte5             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  fifo_data_out(23 downto 16) | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                
+| read_byte6             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  fifo_data_out(15 downto 8) | 
+|                        | tlast                  |             0          |                                                                                 
+|                        | hdr_tvalid             |  0                     |                
+| read_byte7             | tvalid                 |             1          | 
+|                        | fifo_read_enable       |             0          | 
+|                        | tdata                  |  fifo_data_out(7 downto 0) | 
+|                        | tlast                  |             1          |                                                                                 
+|                        | hdr_tvalid             |  0                     |
+pendiente: Tablas con las salidas(son demasiadas como para incorporarlas al diagrama)
 
+![Máquina de estados del timestamp](https://github.com/ColdfireMC/netacq/blob/main/diags/timestamp.svg "Máquina de estados del timestamp")
 
 | Estado        | Señal          | Valor                  |
 | ------------- |:--------------:|:----------------------:|
@@ -94,7 +201,7 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 |                        | input_timestamp_snap0  |    timestamp_snap0     |                                                                                       
 |                        | packed_sample0         |  std_logic_vector(reg_sequence_cnt0) & reg_input_data0 & std_logic_vector(timestamp_snap0) |                   
 |                        | sequence_cnt0          |    reg_sequence_cnt0   |                                                                                       
-|                        | packed_sample_ready0   |                        |                                                                                       
+|                        | packed_sample_ready0   |            0           |             
 | store_packed_sample    | in_ready0              |             0          |                                                                                       
 |                        | input_data0            |    reg_input_data0     |                                                                                       
 |                        | input_timestamp_snap0  |   timestamp_snap0      |                                                                                       
@@ -102,17 +209,6 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 |                        | sequence_cnt0          |     reg_sequence_cnt0  |                                                                                       
 |                        | packed_sample_ready0   |             1          |
 
-
-
-
-
-
-
-pendiente: Tablas con las salidas(son demasiadas como para incorporarlas al diagrama)
-
-![Máquina de estados del timestamp](https://github.com/ColdfireMC/netacq/blob/main/diags/timestamp.svg "Máquina de estados del timestamp")
-
-pendiente: Tablas con las salidas(son demasiadas como para incorporarlas al diagrama)
 
 ### Componente Opcional: Generador de cadenas
 
