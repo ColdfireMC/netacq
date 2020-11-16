@@ -23,6 +23,13 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 
 ![Máquina de estados del FIFO](https://github.com/ColdfireMC/netacq/blob/main/diags/fifo_comp3.svg "Máquina de estados del FIFO")
 
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 pendiente: Tablas con las salidas(son demasiadas como para incorporarlas al diagrama)
 
 ![Máquina de estados del timestamp](https://github.com/ColdfireMC/netacq/blob/main/diags/timestamp.svg "Máquina de estados del timestamp")
