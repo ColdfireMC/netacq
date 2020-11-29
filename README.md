@@ -243,7 +243,7 @@ al final de la transacción puede verse `hdr_tready activo`. Este `xxxx_tready` 
 
 ![transacción completa en ráfaga](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-18%20(2).png "transacción completa en ráfaga")
 
-En cambio esta última es una transacción completa, pero dentro de una ráfaga, donde en la primera se "aprovechó" la oportunidad para continuar. Este lapso de tiempo es bastante corto (1 ciclo en la práctica, sin considerar un cambio de estado) y no alcanza para hacer que se transite de un estado y otro para activar `tvalid`, por lo tanto, la señal de `tvalid` al menos en condiciones de continuar debe estar relacionada combinatorialmente con `tready`
+En cambio esta última es una transacción completa, pero dentro de una ráfaga, donde en la primera se "aprovechó" la oportunidad para continuar. Este lapso de tiempo es bastante corto (1 ciclo en la práctica, sin considerar un cambio de estado) y no alcanza para hacer que se transite de un estado y otro para activar `tvalid`, por lo tanto, la señal de `tvalid` al menos en condiciones de continuar, debe estar relacionada combinatorialmente con `tready`
 
 En esta imagen queda en evidencia la pulsación de `tlast` y `tvalid`
 ![Detalle del pulso](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-18%20(4).png "Detalle del pulso")
@@ -253,6 +253,9 @@ En esta imagen queda en evidencia la pulsación de `tlast` y `tvalid`
 
 ## Script de matlab
 Hay un script de matlab que hace adquisición basica. Cuenta con una calibración bastante "relajada". Matlab no tiene una buena gestión de eventos, por lo que no es suficientemente atractivo para intentar hacer una adquisición viva (Entiéndase, como un osciloscopio). Para tales fines, un programa ejecutable binario(C, C#,Java) o un script en python podrían ser una mejor solución.
+Una ilustración del script funcionando con 3 entradas
+
+![Script de matlab](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-13.png "Script de matlab")
 
 
 ## Posibles Upgrades
