@@ -196,13 +196,13 @@ El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes m
 |                        | packed_sample0         |   reg_packed_sample0   |                                                                                       
 |                        | sequence_cnt0          |   reg_sequence_cnt0+1  |                                                                                       
 |                        | packed_sample_ready0   |             0          |                                                                                       
-| concat                 | in_ready0              |    0                   |                                                                                       
+| concat                 | in_ready0              |             0          |                                                                                       
 |                        | input_data0            |    reg_input_data0     |                                                                                       
 |                        | input_timestamp_snap0  |    timestamp_snap0     |                                                                                       
 |                        | packed_sample0         |  std_logic_vector(reg_sequence_cnt0) & reg_input_data0 & std_logic_vector(timestamp_snap0) |                   
 |                        | sequence_cnt0          |    reg_sequence_cnt0   |                                                                                       
 |                        | packed_sample_ready0   |            0           |             
-| store_packed_sample    | in_ready0              |             0          |                                                                                       
+| store_packed_sample    | in_ready0              |            0           |                                                                                       
 |                        | input_data0            |    reg_input_data0     |                                                                                       
 |                        | input_timestamp_snap0  |   timestamp_snap0      |                                                                                       
 |                        | packed_sample0         |    reg_packed_sample0  |                                                                                       
@@ -222,7 +222,29 @@ Pendiente
 
 ### Detalles del bus AXI-Stream
 
-Hay en el proyecto, el código fuente de una pequeña máquina de estados que envía una cadena por ethernet. Este podría considerarse un dispositivo AXI-Stream mínimo
+Hay en el proyecto, el código fuente de una pequeña máquina de estados que envía una cadena por ethernet. Este podría considerarse un dispositivo AXI-Stream mínimo. El bus AXI-Stream es un bus de conexión paralela que admite transacciones serializadas. El arbitraje es limitado, pudiendo rechazar datos nulos o compartir el bus con más dispositivos mediante algún mecanismo no-tan-formal de detección de colisiones. Necesita algunos ajustes para ser compatible con AXI-Lite, pero perdería parte de sus beneficios(simpleza y 1-ciclo->1 transferencia). Para poder aprovecharlo dentro de un bus axi completo, necesita de un adaptador y algún mecanismo de DMA para poder decidir donde cargar o descargar los datos
+
+El bus `tuser`, permite tal arbitraje o el envío de condiciones de error o eventos, pero deben ser implementados por el desarrollador (Esto es menos terrible de lo que suena).
+
+La señal `tvalid` indica que los datos en el bus son validos y los otros dispositivos deberían leer.
+
+La señal `tready` indica que el bus está listo para recibir los datos. Activar `tvalid` con `tready` bajo causará que un dispositivo "bien hecho" se rinda y no continúe la transacción actual
+
+la señal `tdata` es el bus de datos. 
+
+La señal `tlast` se usa para crear paquetes de varios anchos de bus de largo y así consolidarlos como un bloque de datos único por el dispositivo "de llegada". `tlast` debe ser pulsado junto con la bajada de tvalid durante un ciclo para terminar un bloque. Si no se desea crear bloques, se debe mantener tlast activo al mismo tiempo que valid, esto podría llegar a ser sumamente ineficiente.
+
+la imagen ilustra una primera transacción completa
+
+
+![transacción completa](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-17 (1).png "transacción completa")
+
+al final de la transacción puede verse `hdr_tready activo`. Este `xxxx_tready` temprano indica que el bus estuvo listo para aceptar una siguiente transacción inmediatamente, sin embargo se dejó pasar.
+
+![transacción completa en ráfaga](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-18 (2).png "transacción completa en ráfaga")
+
+En cambio esta última es una transacción completa, pero dentro de una ráfaga, donde en la primera se "aprovechó" la oportunidad para continuar. Este lapso de tiempo es bastante corto (1 ciclo en la práctica, sin considerar un cambio de estado) y no alcanza para hacer que se transite de un estado y otro para activar `tvalid`, por lo tanto, la señal de `tvalid` al menos en condiciones de continuar debe estar relacionada combinatorialmente con `tready`
+
 
 
 ## Script de matlab
