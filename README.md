@@ -237,11 +237,11 @@ La señal `tlast` se usa para crear paquetes de varios anchos de bus de largo y 
 la imagen ilustra una primera transacción completa
 
 
-![transacción completa](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-17 (1).png "transacción completa")
+![transacción completa](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-17%20(1).png "transacción completa")
 
 al final de la transacción puede verse `hdr_tready activo`. Este `xxxx_tready` temprano indica que el bus estuvo listo para aceptar una siguiente transacción inmediatamente, sin embargo se dejó pasar.
 
-![transacción completa en ráfaga](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-18 (2).png "transacción completa en ráfaga")
+![transacción completa en ráfaga](https://github.com/ColdfireMC/netacq/blob/main/diags/2020-11-18%20(2).png "transacción completa en ráfaga")
 
 En cambio esta última es una transacción completa, pero dentro de una ráfaga, donde en la primera se "aprovechó" la oportunidad para continuar. Este lapso de tiempo es bastante corto (1 ciclo en la práctica, sin considerar un cambio de estado) y no alcanza para hacer que se transite de un estado y otro para activar `tvalid`, por lo tanto, la señal de `tvalid` al menos en condiciones de continuar debe estar relacionada combinatorialmente con `tready`
 
