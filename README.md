@@ -267,3 +267,4 @@ Hay un script de matlab que hace adquisición basica. Cuenta con una calibració
 
 * IPV6: ?
 
+* VISA: Muchos problemas de compatibilidad e implementación se superarían en su totalidad con la implementación de un stack VISA. No hay muchos en la red escritos en HDL, dado que quedaría un poco "sobredimensionado", pero si haría un proyecto como este no solo manejable por matlab, sino que también por otros instrumentos VISA o por LabView y con la posibilidad de ser configurado y transportado en enlaces más complejos.
