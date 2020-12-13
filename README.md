@@ -17,7 +17,7 @@ El i2c está en modo normal, no en modo estiramiento de reloj, por lo que deben 
 
 ## Detalles para nerds
 
-El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes menores. El núcleo I2C se modificó en 2 líneas para admitir más frecuencia (pero utilizar muchísimo más espacio)
+El proyecto es a grandes rasgos, "lógica de pegamento" y una serie de ajustes menores. El núcleo I2C se modificó en 2 líneas para admitir más frecuencia (pero utilizar muchísimo más espacio) y el control del núcleo i2c se modificó para admitir adquisición contínua.
 
 ### Máquinas de estado agregadas al sistema
 
