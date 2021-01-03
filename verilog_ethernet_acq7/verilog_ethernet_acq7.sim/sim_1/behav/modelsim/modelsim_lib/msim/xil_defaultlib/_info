@@ -1,0 +1,1174 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+!s11f vlog 2019.4 2019.10, Oct 15 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.sim/sim_1/behav/modelsim
+T_opt
+!s110 1605384108
+VnL_0]OB6ifITHIfdEFcS^3
+04 5 4 work fpga2 fast 0
+04 4 4 work glbl fast 0
+=1-7c05073b7301-5fb037ab-d7-496c
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -debugdb +acc
+tCvgOpt 0
+n@_opt
+OL;O;2019.4;69
+varbiter
+Z1 !s10a 1601680408
+Z2 !s110 1605376900
+!i10b 1
+!s100 A_UP7Kc3O`3;]1[SSKC940
+!s11b OI3588cYN:lKeRNUm=X_M3
+I3h:9D8n7[UiTM228^L9La3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1601680408
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/arbiter.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/arbiter.v
+!i122 -1
+Z5 L0 32
+Z6 OL;L;2019.4;69
+r1
+!s85 0
+31
+Z7 !s108 1605376900.000000
+Z8 !s107 ../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_complete.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_checksum_gen.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/sync_signal.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/sync_reset.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ssio_ddr_in.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/rgmii_phy_if.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/priority_encoder.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/oddr.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/lfsr.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_complete.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_arb_mux.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/iddr.v|../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga_core_4.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii_fifo.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_arb_mux.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/debounce_switch.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_fifo.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo_adapter.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_cache.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/arbiter.v|
+Z9 !s90 -incr|-work|xil_defaultlib|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/arbiter.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_cache.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo_adapter.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_fifo.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/debounce_switch.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_arb_mux.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii_fifo.v|../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga_core_4.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/iddr.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_arb_mux.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_complete.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_tx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/lfsr.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/oddr.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/priority_encoder.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/rgmii_phy_if.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ssio_ddr_in.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/sync_reset.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/sync_signal.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_checksum_gen.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_complete.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_rx.v|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_tx.v|
+!i113 0
+Z10 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCoverage 63 CoverOpt 4 CvgOpt 0
+varp
+R1
+R2
+!i10b 1
+!s100 07cRi8FB:e[:lGc_UTV@23
+!s11b cI@W2Pe?UBLe:lLmHJUEm1
+IS]j>@7SM[_LV:FhcE[fIm1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+varp_cache
+R1
+R2
+!i10b 1
+!s100 I7Bbg?8h`9_U@EzG<kGOM3
+!s11b aQj0m8lU7A<i`2kJ7lFDJ2
+I?Ff4T1=8;dAIVP:3=danW1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_cache.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_cache.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+varp_eth_rx
+R1
+R2
+!i10b 1
+!s100 702X:hG`iRSEh3G_e]zdK1
+!s11b cYnW8PI4VL4I5OIoJNcQB0
+ID5e<8j^Pk0?HFE=LePQiN2
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_rx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_rx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+varp_eth_tx
+R1
+R2
+!i10b 1
+!s100 8IF4R^ZoVRKnWbFHQk3Tf0
+!s11b R9TYUL2aaimLVC^<7`4HV1
+I_5WASe_Lo_dc6[EhV10191
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_tx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_tx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vaxis_async_fifo
+R1
+R2
+!i10b 1
+!s100 PQl8a]0G^Ol_=4Gm@EAVW2
+!s11b MNIJo<e5=iP`I?OHN2B^E0
+IJUMk0<Tcj[D;V8S]QK=B<0
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vaxis_async_fifo_adapter
+R1
+R2
+!i10b 1
+!s100 Uh2KeX<;6Y<Z=:;z6Rg:k2
+!s11b UIoL1K0i]V0ZTa?78EKbV1
+I0;fhKH=f[NSRc42BmhXRn2
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo_adapter.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo_adapter.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vaxis_fifo
+!s10a 1603840332
+R2
+!i10b 1
+!s100 hDDJlJ6:@YHF_G8m?TV_@0
+!s11b FK@AQH6oFz:Q@f]D0D]HA2
+I6B?1UL431=O_L]kN^EGC]2
+R3
+R0
+w1603840332
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_fifo.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_fifo.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vaxis_gmii_rx
+R1
+R2
+!i10b 1
+!s100 FVci<igGEme1XEC6ZaHb53
+!s11b Oem?zfa9h2Dm:Ef>C4>eC2
+IVMX^Q@I]bUJ`T:ceCYeMD0
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_rx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_rx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vaxis_gmii_tx
+R1
+R2
+!i10b 1
+!s100 TG6]eRfl_G5?bRRAjYbYH2
+!s11b 59_B_5a?Cz9[R5mE;M@LB0
+ITJz[W9[LRWPcL]bTI`XE<1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_tx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_tx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vdebounce_switch
+R1
+R2
+!i10b 1
+!s100 oh>S>8[>9jbX[YXP0gOc@3
+!s11b cZ3?cK5Lzm1oTIFeBog=Q2
+IW5G8PJSS`6=B_DizU4YO62
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/debounce_switch.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/debounce_switch.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+veth_arb_mux
+R1
+R2
+!i10b 1
+!s100 g>lNfdGaAfc=1=`]dXaPE3
+!s11b CTWII4I;U7G=bJnWl049@2
+IkJh_JV2ebG6oKhVW=N7Bk3
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_arb_mux.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_arb_mux.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+veth_axis_rx
+R1
+R2
+!i10b 1
+!s100 DXG1?Q]:>bQAa2VTFCo?o2
+!s11b YFKf?2_f@SZV4BEn_`<X02
+I0;VXZO=U5;PEZcQ56WN:_1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_rx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_rx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+veth_axis_tx
+R1
+R2
+!i10b 1
+!s100 nT05:NC;Ch:mIM?o@D3k41
+!s11b zFL=m411O4i@K`PY?NBB13
+IPMB@boN^EzT7Ab[PG`z[z0
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_tx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_tx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+veth_mac_1g
+R1
+R2
+!i10b 1
+!s100 >9]TAXzRmfc_NSkZ14_N[1
+!s11b WN87aggMFJ2aFQPDGnP[:3
+I3OeB5l7mbleB=N9:FkDj;0
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+veth_mac_1g_rgmii
+R1
+R2
+!i10b 1
+!s100 a4EMMcIJJldO9T[[H;HoH0
+!s11b lh[O6@NR=I8F?j6CR5;5g2
+IJU>Aj@SOE3;Am>WZJlX?21
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+veth_mac_1g_rgmii_fifo
+R1
+R2
+!i10b 1
+!s100 L=Sf_lBef2z_XhjNiLT080
+!s11b NF3EP3PcKQ9QRDkZkNLhg0
+ICa@H]UJGWA<=B82Wfdnol3
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii_fifo.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii_fifo.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Efifo_comp_axi_s
+Z12 w1605384007
+Z13 DPx6 unisim 11 vcomponents 0 22 X=HHDi:M@_oV]g9FKM16^3
+Z14 DPx8 unimacro 11 vcomponents 0 22 YZU<e=HZaV[Fa1@ZYZMAR1
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z16 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z17 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 -1
+R0
+Z18 8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/new/fifo_comp_axi_s.vhd
+Z19 F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/new/fifo_comp_axi_s.vhd
+l0
+L9
+Vj:McD_L]BH<Gz?bjGbELm2
+!s100 ;cB^nVY`k9fKZ5de[^i2e0
+Z20 OL;C;2019.4;69
+33
+Z21 !s110 1605384094
+!i10b 1
+Z22 !s108 1605384093.000000
+Z23 !s90 -2008|-work|xil_defaultlib|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/new/fifo_comp_axi_s.vhd|../../../../verilog_ethernet_acq7.srcs/sources_1/new/timestamp_cnt3.vhd|
+Z24 !s107 ../../../../verilog_ethernet_acq7.srcs/sources_1/new/timestamp_cnt3.vhd|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/new/fifo_comp_axi_s.vhd|
+!i113 0
+Z25 o-2008 -work xil_defaultlib
+Z26 tExplicit 1 CheckSynthesis 1 Coverage 63 CoverOpt 4 CvgOpt 0
+Abehavioral
+R13
+R14
+R15
+R16
+R17
+DEx4 work 15 fifo_comp_axi_s 0 22 j:McD_L]BH<Gz?bjGbELm2
+!i122 -1
+l104
+L39
+VhDVaJN^V^FN;[:9=[GK=P2
+!s100 ofonBa[WV<Bm7@1E<5n>42
+R20
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R25
+R26
+vfpga2
+!s10a 1605015591
+!s110 1605377869
+!i10b 1
+!s100 dlV@CKfIbSdV6g45mg<3V1
+!s11b 8An8baJYKO[6n^K:Q^]jj0
+IoW3SSQcQR>K_1lPXM2<>D2
+R3
+R0
+w1605015591
+8../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+!s108 1605377869.000000
+!s107 ../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v|
+!s90 -incr|-work|xil_defaultlib|../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v|
+!i113 0
+R10
+R11
+vfpga_core4
+!s10a 1605146036
+Z27 !s110 1605376901
+!i10b 1
+!s100 ^Azia5h8a24_UeUa]5WC`2
+!s11b _XMj>;[J`81lF]aaT5mRO0
+I^>OZ3742R?DEIDjSVWin43
+R3
+R0
+w1605146036
+8../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga_core_4.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/new/fpga_core_4.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vglbl
+R21
+!i10b 1
+!s100 ZHmTNm_h3dd`6mIQLzSUN3
+!s11b kEoogN=ibS<DD@Y5IBUAo1
+Io>0O@FZj=c4B_nH8;2:NV1
+R3
+R0
+w1590624368
+8glbl.v
+Fglbl.v
+!i122 -1
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1605384094.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R10
+R11
+Ei2cmaster4
+Z28 w1605384074
+R15
+R13
+Z29 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z30 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R16
+R17
+!i122 -1
+R0
+Z31 8../../../../verilog_ethernet_acq7.srcs/sources_1/new/i2cmaster4.vhd
+Z32 F../../../../verilog_ethernet_acq7.srcs/sources_1/new/i2cmaster4.vhd
+l0
+L55
+Vcg9;DRVl5Rl_PAgcZoOYR1
+!s100 D?l]6AYAE:d=LaZkgjbc42
+R20
+33
+Z33 !s110 1605384093
+!i10b 1
+Z34 !s108 1605384092.000000
+Z35 !s90 -2008|-work|xil_defaultlib|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd|../../../../verilog_ethernet_acq7.srcs/sources_1/new/i2cmaster4.vhd|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/pmodAD2_ctrl.vhd|
+Z36 !s107 ../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/pmodAD2_ctrl.vhd|../../../../verilog_ethernet_acq7.srcs/sources_1/new/i2cmaster4.vhd|../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd|
+!i113 0
+R25
+R26
+Abehavioral
+R15
+R13
+R29
+R30
+R16
+R17
+DEx4 work 10 i2cmaster4 0 22 cg9;DRVl5Rl_PAgcZoOYR1
+!i122 -1
+l292
+L92
+VWCK=U]PhhRJ=m@iBRK`cO2
+!s100 dl0^T^I@RM;Jo88U7nEk10
+R20
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R25
+R26
+viddr
+R1
+R27
+!i10b 1
+!s100 oJWR>_JK5TCT;^J9dZ?LF2
+!s11b 4fFd<6kbWoWCjW_9A8gWe0
+I2[9dYETmi84bP=@8QPgnC3
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/iddr.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/iddr.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vip
+R1
+R27
+!i10b 1
+!s100 f]7Km]XMnfFU_ZAdEB_iI3
+!s11b 6hngACMcC`C69ciiT][fN1
+IaWd>Q6PmVL0kRzHG@g7UG3
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vip_arb_mux
+R1
+R27
+!i10b 1
+!s100 1eYQY:gGQDKOkRJgdSPUO1
+!s11b NSzn5YYSQf66;MDIYJGal2
+IKGZm4U^Z@3Y:5B0X9kg=22
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_arb_mux.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_arb_mux.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vip_complete
+R1
+R27
+!i10b 1
+!s100 g2?AdZ@HmjeXa5CFa8kE51
+!s11b Ue`6B8_d[AS<`;n?S727`0
+IgLP]@ShGla7U2dzOGJ;;n0
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_complete.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_complete.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vip_eth_rx
+R1
+R27
+!i10b 1
+!s100 =FZ`8ckZh1ee;STYHf>@T2
+!s11b RnY?NM_;3XRE7o4VmFFMd3
+I7e`3:gTi>2L>4PLmdmYd93
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_rx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_rx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vip_eth_tx
+R1
+R27
+!i10b 1
+!s100 TZ3X0kXCel:iPQ2W]l0621
+!s11b ZNmA=X<KTgci`P26ebkLg2
+IU8Th2oZZIAG_J=SSM3@jM1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_tx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_tx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vlfsr
+R1
+R27
+!i10b 1
+!s100 7HAa^Wd:Re?@nNNdG]2e_0
+!s11b 9CX4KmT`FDU00[dCAJbT02
+IWFOX;d34RaH9[S6Y6CAm52
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/lfsr.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/lfsr.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+voddr
+R1
+R27
+!i10b 1
+!s100 19SWIKzzYISWm^[QF488_2
+!s11b MVkgZ0]S4bT0hDNoGkn?m1
+IXnNfl>7jzFfI[eKkHBC5F2
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/oddr.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/oddr.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Epmodad2_ctrl
+Z37 w1605149038
+R15
+R13
+R29
+R30
+R16
+R17
+!i122 -1
+R0
+Z38 8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/pmodAD2_ctrl.vhd
+Z39 F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/pmodAD2_ctrl.vhd
+l0
+L50
+V_UJ8MkKmAbNigNa]aV@XO3
+!s100 fXO5^_640ZniebAJWdRO:3
+R20
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R25
+R26
+Abehavioral
+R15
+R13
+R29
+R30
+R16
+R17
+DEx4 work 12 pmodad2_ctrl 0 22 _UJ8MkKmAbNigNa]aV@XO3
+!i122 -1
+l125
+L60
+VMNN]<G1C`j:fHl4U_gEM;0
+!s100 hLUBalIk_loKIIEBX[UoE2
+R20
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R25
+R26
+vpriority_encoder
+R1
+R27
+!i10b 1
+!s100 HEC8M]V0NjJRIeWa^nI453
+!s11b Do0d80n?zbXFTPHWDEa1^1
+IOj6;eMDY>58H4ah[HfD<i3
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/priority_encoder.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/priority_encoder.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vrgmii_phy_if
+R1
+R27
+!i10b 1
+!s100 gENIIDaYSg7_?Mj^ni[A52
+!s11b 8^?gbz5G`f89oeV[HDGVa0
+IS0YZZjkDkO2ek2fZ5ND?=2
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/rgmii_phy_if.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/rgmii_phy_if.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vssio_ddr_in
+R1
+R27
+!i10b 1
+!s100 OQ4HP7YK@`8AWa8MoH?6R1
+!s11b ?chNjFCbi28U_C[0WETKd2
+ImB5F`cUN5]PEVP3DcMS7d1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ssio_ddr_in.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ssio_ddr_in.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsync_reset
+R1
+R27
+!i10b 1
+!s100 _2C0Wafh]J8f7^c0kGj@h2
+!s11b XmHg3m9n9>COh:dKZ=F?b3
+I]gWB4giCP8:NZc>HzNPo63
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/sync_reset.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/sync_reset.v
+!i122 -1
+Z40 L0 33
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vsync_signal
+R1
+R27
+!i10b 1
+!s100 ISn[8P8I5CllOzjdZ9b_m3
+!s11b A_0TW7[3e3hH?IbiASn7W0
+IaGF5=h3iznV5?0gb0i1`l2
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/sync_signal.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/sync_signal.v
+!i122 -1
+R40
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Etimestamp_patch_3
+Z41 w1605146925
+R13
+R15
+R16
+R17
+!i122 -1
+R0
+Z42 8../../../../verilog_ethernet_acq7.srcs/sources_1/new/timestamp_cnt3.vhd
+Z43 F../../../../verilog_ethernet_acq7.srcs/sources_1/new/timestamp_cnt3.vhd
+l0
+L13
+VP9QG:?5Y_92GjTENR_MS11
+!s100 PU7T>`n7PMD`Em[=S=z8<3
+R20
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R25
+R26
+Abehavioral
+R13
+R15
+R16
+R17
+DEx4 work 17 timestamp_patch_3 0 22 P9QG:?5Y_92GjTENR_MS11
+!i122 -1
+l93
+L36
+V=1^M3lan<_l9SC_NIaQ_G0
+!s100 gEPWeM`2ecZ_;Mh19PHE90
+R20
+33
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R25
+R26
+Etwictl
+Z44 w1605377848
+R15
+R13
+Z45 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R29
+R30
+R16
+R17
+!i122 -1
+R0
+Z46 8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd
+Z47 F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd
+l0
+L34
+VkYc:H>a00^?SC3n;8;Hh<2
+!s100 ZnTC=7aYUj1Pf=o:`23LN1
+R20
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R25
+R26
+Abehavioral
+R15
+R13
+R45
+R29
+R30
+R16
+R17
+DEx4 work 6 twictl 0 22 kYc:H>a00^?SC3n;8;Hh<2
+!i122 -1
+l122
+L91
+V?gjc^?A;?]6j:HNMfDI7U2
+!s100 R4D8hUAakBeUP<1P:0Yb42
+R20
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 0
+R25
+R26
+vudp
+R1
+R27
+!i10b 1
+!s100 aIV2In69lhj`hkiGT3?^o0
+!s11b 5PCVQhT^L8iUOWH:PFOAd0
+INGV8Io;R`0I9OaYFOQ^_z2
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vudp_checksum_gen
+R1
+R27
+!i10b 1
+!s100 ]<lmZdHASQ][B]k`0Af]S1
+!s11b WFf2g@9CBXCYPZK=F1XA`0
+IWcD59i6HKOJe7VOFA?TA92
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_checksum_gen.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_checksum_gen.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vudp_complete
+!s10a 1603261683
+R27
+!i10b 1
+!s100 :CY0N7lOzQeCd^c6;ZDT61
+!s11b XMN2?m8;cgR21o]jk?7JY1
+I]9kZZ;0c]]?Oce;2kBX`h0
+R3
+R0
+w1603261683
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_complete.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_complete.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vudp_ip_rx
+R1
+R27
+!i10b 1
+!s100 cScN0V0NRBWJ]XkIfG1463
+!s11b _k@PCfY:iiXglhemc0>M?1
+IMlUlUGNXO;F1[h52i>kmA1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_rx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_rx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+vudp_ip_tx
+R1
+R27
+!i10b 1
+!s100 0Fn4KKo3CW2d51T>B4iKT2
+!s11b 1m@jY:iIfgOeYHP[CYNCB1
+I1E?J:fBkUoHBaBdZB0Q^V1
+R3
+R0
+R4
+8../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_tx.v
+F../../../../verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_tx.v
+!i122 -1
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11

@@ -1,0 +1,85 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arp_cache
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arp_eth_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/arp_eth_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arp_eth_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_async_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_async_fifo_adapter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_async_fifo_adapter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/axis_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_gmii_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/axis_gmii_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_gmii_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/debounce_switch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce_switch
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_arb_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eth_arb_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eth_axis_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_axis_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eth_axis_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eth_mac_1g
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eth_mac_1g_rgmii
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/eth_mac_1g_rgmii_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eth_mac_1g_rgmii_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/new/fpga_core_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpga_core4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/iddr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iddr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_arb_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_arb_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_complete.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_complete
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_eth_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ip_eth_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ip_eth_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/lfsr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module lfsr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/oddr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module oddr
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/priority_encoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module priority_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/rgmii_phy_if.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rgmii_phy_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/ssio_ddr_in.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ssio_ddr_in
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/lib/axis/rtl/sync_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_reset
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/rtl/sync_signal.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_signal
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_checksum_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_checksum_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_complete.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_complete
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_ip_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/fpga/lib/eth/rtl/udp_ip_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module udp_ip_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fpga2
+INFO: [VRFC 10-2458] undeclared symbol clk_50_i2c_mmcm_out, assumed default net type wire [C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v:157]
+INFO: [VRFC 10-2458] undeclared symbol clk_50_i2c, assumed default net type wire [C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v:189]
+INFO: [VRFC 10-2458] undeclared symbol uart_rxd_int, assumed default net type wire [C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/new/fpga2.v:238]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TWICtl'
+ERROR: [VRFC 10-2989] 'pullup' is not declared [C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd:125]
+ERROR: [VRFC 10-2989] 'pullup' is not declared [C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd:126]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd:90]
+INFO: [VRFC 10-3070] VHDL file 'C:/src/verilog_ethernet_acq7/verilog_ethernet_acq7.srcs/sources_1/imports/sources_1/imports/sources_1/imports/Nexys3_AD2_DA1_Source/TWICtl.vhd' ignored due to errors

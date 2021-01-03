@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generado por Microsoft Visio, SVG Export sampletype.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="5.03905in" height="1.39162in"
+		viewBox="0 0 362.812 100.196" xml:space="preserve" color-interpolation-filters="sRGB" class="st7">
+	<v:documentProperties v:langID="13322" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st2 {fill:#000000;font-family:Calibri;font-size:0.666664em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.24}
+		.st4 {fill:#ffffff;stroke:none;stroke-linecap:butt;stroke-width:7.2}
+		.st5 {font-size:1em}
+		.st6 {fill:#ffffff;stroke:none;stroke-linecap:butt}
+		.st7 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Página-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(22.7741,-18)">
+			<title>Byte o variable</title>
+			<desc>Numero de Secuencia</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="53.6729" cy="86.0233" width="107.35" height="28.3465"/>
+			<rect x="0" y="71.85" width="107.346" height="28.3465" class="st1"/>
+			<text x="18.16" y="88.42" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>Numero de Secuencia</text>		</g>
+		<g id="group2-4" transform="translate(22.7741,-27.9213)" v:mID="2" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Etiqueta intervalo</title>
+			<g id="shape3-5" v:mID="3" v:groupContext="shape">
+				<title>Hoja.3</title>
+				<path d="M0 100.2 L0 48.75" class="st3"/>
+				<path d="M107.35 100.2 L107.35 48.75" class="st3"/>
+			</g>
+			<g id="shape4-9" v:mID="4" v:groupContext="shape" transform="translate(6.70911,-36.7497)">
+				<title>Hoja.4</title>
+				<path d="M0 100.2 L93.93 100.2" class="st3"/>
+			</g>
+			<g id="shape5-12" v:mID="5" v:groupContext="shape" transform="translate(17.6063,-34.1438)">
+				<title>Hoja.5</title>
+				<desc>16 bit</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="32" cy="91.3947" width="64" height="17.6036"/>
+				<rect v:rectContext="textBkgnd" x="22.6818" y="86.595" width="18.6367" height="9.59985" class="st4"/>
+				<text x="22.68" y="93.79" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>16 bit</text>			</g>
+		</g>
+		<g id="shape6-15" v:mID="6" v:groupContext="shape" transform="translate(130.12,-18)">
+			<title>Byte o variable.6</title>
+			<desc>Muestra Original</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="53.6729" cy="86.0233" width="107.35" height="28.3465"/>
+			<rect x="0" y="71.85" width="107.346" height="28.3465" class="st1"/>
+			<text x="26.34" y="88.42" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>Muestra Original</text>		</g>
+		<g id="shape7-18" v:mID="7" v:groupContext="shape" transform="translate(237.466,-18)">
+			<title>Byte o variable.7</title>
+			<desc>Timestamp</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(1,1,1,1)" v:tabSpace="42.5197"/>
+			<v:textRect cx="53.6729" cy="86.0233" width="107.35" height="28.3465"/>
+			<rect x="0" y="71.85" width="107.346" height="28.3465" class="st1"/>
+			<text x="35.5" y="88.42" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>Timestamp</text>		</g>
+		<g id="group8-21" transform="translate(130.12,-42.0945)" v:mID="8" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Etiqueta intervalo.8</title>
+			<g id="shape9-22" v:mID="9" v:groupContext="shape">
+				<title>Hoja.9</title>
+				<path d="M0 100.2 L0 60.09" class="st3"/>
+				<path d="M107.35 100.2 L107.35 60.09" class="st3"/>
+			</g>
+			<g id="shape10-26" v:mID="10" v:groupContext="shape" transform="translate(6.70911,-28.6443)">
+				<title>Hoja.10</title>
+				<path d="M0 100.2 L93.93 100.2" class="st3"/>
+			</g>
+			<g id="shape11-29" v:mID="11" v:groupContext="shape" transform="translate(19.2974,-28.4738)">
+				<title>Hoja.11</title>
+				<desc>16 bit</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="32" cy="91.3947" width="64" height="17.6036"/>
+				<rect v:rectContext="textBkgnd" x="22.6818" y="86.595" width="18.6367" height="9.59985" class="st4"/>
+				<text x="22.68" y="93.79" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>16 bit</text>			</g>
+		</g>
+		<g id="group12-32" transform="translate(237.466,-27.9213)" v:mID="12" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Etiqueta intervalo.12</title>
+			<g id="shape13-33" v:mID="13" v:groupContext="shape">
+				<title>Hoja.13</title>
+				<path d="M0 100.2 L0 47.76" class="st3"/>
+				<path d="M107.35 100.2 L107.35 47.76" class="st3"/>
+			</g>
+			<g id="shape14-37" v:mID="14" v:groupContext="shape" transform="translate(6.70911,-37.4572)">
+				<title>Hoja.14</title>
+				<path d="M0 100.2 L93.93 100.2" class="st3"/>
+			</g>
+			<g id="shape15-40" v:mID="15" v:groupContext="shape" transform="translate(16.189,-36.5517)">
+				<title>Hoja.15</title>
+				<desc>32 bit</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="32" cy="91.3947" width="64" height="17.6036"/>
+				<rect v:rectContext="textBkgnd" x="22.6818" y="86.595" width="18.6367" height="9.59985" class="st4"/>
+				<text x="22.68" y="93.79" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>32 bit</text>			</g>
+		</g>
+		<g id="group16-43" transform="translate(130.12,-42.0945)" v:mID="16" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Etiqueta intervalo.16</title>
+			<g id="shape17-44" v:mID="17" v:groupContext="shape">
+				<title>Hoja.17</title>
+				<path d="M0 100.2 L0 67.46" class="st3"/>
+				<path d="M34.29 100.2 L34.29 67.46" class="st3"/>
+			</g>
+			<g id="shape18-48" v:mID="18" v:groupContext="shape" transform="translate(2.14309,-23.3831)">
+				<title>Hoja.18</title>
+				<path d="M0 100.2 L30 100.2" class="st3"/>
+			</g>
+			<g id="shape19-51" v:mID="19" v:groupContext="shape" transform="translate(-14.7184,-0.99666) rotate(1.68897E-06)">
+				<title>Hoja.19</title>
+				<desc>Relleno 2 bit</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="32" cy="86.5947" width="64" height="27.2035"/>
+				<rect v:rectContext="textBkgnd" x="19.8012" y="76.995" width="24.3979" height="19.1997" class="st4"/>
+				<text x="19.8" y="84.19" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>Relleno<v:lf/><tspan
+							x="24.71" dy="1.2em" class="st5">2 bit</tspan></text>			</g>
+		</g>
+		<g id="group20-55" transform="translate(164.409,-42.0945)" v:mID="20" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Etiqueta intervalo.20</title>
+			<g id="shape21-56" v:mID="21" v:groupContext="shape">
+				<title>Hoja.21</title>
+				<path d="M0 100.2 L0 67.46" class="st3"/>
+				<path d="M34.02 100.2 L34.02 67.46" class="st3"/>
+			</g>
+			<g id="shape22-60" v:mID="22" v:groupContext="shape" transform="translate(2.12598,-23.3831)">
+				<title>Hoja.22</title>
+				<path d="M0 100.2 L29.76 100.2" class="st3"/>
+			</g>
+			<g id="shape23-63" v:mID="23" v:groupContext="shape" transform="translate(-14.9921,-0.996659)">
+				<title>Hoja.23</title>
+				<desc>Canal 2 bit</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="32" cy="86.5947" width="64" height="27.2035"/>
+				<rect v:rectContext="textBkgnd" x="23.0158" y="76.995" width="17.9687" height="19.1997" class="st4"/>
+				<text x="23.02" y="84.19" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>Canal<v:lf/><tspan
+							x="24.71" dy="1.2em" class="st5">2 bit</tspan></text>			</g>
+		</g>
+		<g id="group24-67" transform="translate(198.425,-42.0945) rotate(1.48342E-06)" v:mID="24" v:groupContext="group">
+			<v:userDefs>
+				<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<title>Etiqueta intervalo.24</title>
+			<g id="shape25-68" v:mID="25" v:groupContext="shape">
+				<title>Hoja.25</title>
+				<path d="M0 100.2 L0 67.46" class="st3"/>
+				<path d="M39.04 100.2 L39.04 67.46" class="st3"/>
+			</g>
+			<g id="shape26-72" v:mID="26" v:groupContext="shape" transform="translate(2.44004,-23.3831)">
+				<title>Hoja.26</title>
+				<path d="M0 100.2 L34.16 100.2" class="st3"/>
+			</g>
+			<g id="shape27-75" v:mID="27" v:groupContext="shape" transform="translate(-9.32284,-0.996659)">
+				<title>Hoja.27</title>
+				<desc>Muestra 12 bit</desc>
+				<v:userDefs>
+					<v:ud v:nameU="CH" v:val="VT0(0):26"/>
+				</v:userDefs>
+				<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+				<v:textRect cx="32" cy="86.5947" width="64" height="27.2035"/>
+				<rect v:rectContext="textBkgnd" x="18.2736" y="76.995" width="27.4529" height="19.1997" class="st6"/>
+				<text x="18.27" y="84.19" class="st2" v:langID="13322"><v:paragraph v:horizAlign="1"/><v:tabList/>Muestra<v:lf/><tspan
+							x="22.68" dy="1.2em" class="st5">12 bit</tspan></text>			</g>
+		</g>
+	</g>
+</svg>
