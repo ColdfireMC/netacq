@@ -52,15 +52,13 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 library UNISIM;
 use UNISIM.VComponents.all;
-entity i2cmaster3 is
-    Port ( AD2_SCLA                   	    : inout	    STD_LOGIC;
-		   AD2_SDAA                   	    : inout	    STD_LOGIC;
---		   AD2_SCLA, AD2_SCLB, AD2_SCLC	    : inout	    STD_LOGIC;
---		   AD2_SDAA, AD2_SDAB, AD2_SDAC	    : inout	    STD_LOGIC;
+entity i2cmaster4 is
+    Port ( AD2_SCLA, AD2_SCLB, AD2_SCLC	    : inout	    STD_LOGIC;
+  		   AD2_SDAA, AD2_SDAB, AD2_SDAC	    : inout	    STD_LOGIC;
 --------------------------------Salida de datos AXI-Stream--------------------------------------		   
            aclk                             : in  std_logic;
            clki2c                           : in  std_logic;                    
-           aresetn                          : in  std_logic;                     
+           areset                           : in  std_logic;                     
            tvalid                           : out std_logic;                     
            tdata                            : out std_logic_vector(7 downto 0);  
            tready                           : in  std_logic;                     
@@ -88,23 +86,32 @@ entity i2cmaster3 is
 --           hdr_length                       : out std_logic_vector(15 downto 0); 
 --           hdr_checksum                     : out std_logic_vector(15 downto 0)
 );                
-end i2cmaster3;
+end i2cmaster4;
 
 
-architecture Behavioral of i2cmaster3 is
+architecture Behavioral of i2cmaster4 is
 
 	------------------------------------------------------------------------
 	-- Component Declarations
 	------------------------------------------------------------------------
 
 	--  Project Components
-component timestamp_patch is
-     Port (clock               : in std_logic;
-           reset               : in std_logic;
-           -- input interface
-           in_ready          : out std_logic;
-           in_valid          : in std_logic;
-           in_data           : in std_logic_vector(15 downto 0);
+component timestamp_patch_3 is
+     Port (clock             : in std_logic;
+           reset             : in std_logic;
+           -- input interface0
+           in_ready0         : out std_logic;
+           in_valid0         : in std_logic;
+           in_data0          : in std_logic_vector(15 downto 0);
+           -- input interface1
+           in_ready1         : out std_logic;
+           in_valid1         : in std_logic;
+           in_data1          : in std_logic_vector(15 downto 0);
+           -- input interface2
+           in_ready2         : out std_logic;
+           in_valid2         : in std_logic;
+           in_data2          : in std_logic_vector(15 downto 0);                      
+                      
            -- output interface
            out_ready         : in std_logic;
            out_valid         : out std_logic;
@@ -112,17 +119,36 @@ component timestamp_patch is
 end component;
 
 component pmodAD2_ctrl is
+     generic(pmod_config    : in        std_logic_vector(7 downto 0));
 	 Port (mainClk	    	: in		STD_LOGIC;
 	       SDA_mst	    	: inout	STD_LOGIC;
 	       SCL_mst		    : inout	STD_LOGIC;    	
 	       wData0	    	: out		STD_LOGIC_VECTOR(15 downto 0);
 	       rst			    : in		STD_LOGIC;
-	       output_ready_p    : out       STD_LOGIC);
+	       output_ready_p   : out       STD_LOGIC);
 	end component;
-component samplefifo is                                                              
+--component samplefifo is                                                              
+--    generic (ram_width : natural);                                                     
+--    port (clock               : in std_logic;                                       
+--          reset               : in std_logic;                                       
+--          ---fuentes de interrupciÃ³n------                                        
+--          almost_full_irq   : out std_logic;                                      
+--          almost_empty_irq  : out std_logic;                                      
+--          full_irq          : out std_logic;                                      
+--          empty_irq         : out std_logic;                                      
+--          -- input interface                                                      
+--          in_ready          : out std_logic;                                      
+--          in_valid          : in std_logic;                                       
+--          in_data           : in std_logic_vector(ram_width - 1 downto 0);        
+--          -- output interface                                                     
+--          out_ready         : in std_logic;                                       
+--          out_valid         : out std_logic;                                      
+--          out_data          : out std_logic_vector(ram_width - 1 downto 0));      
+--end component;  
+
+component fifo_comp_axi_s is                                                              
     generic (ram_width : natural);                                                     
-    port (clock               : in std_logic;                                       
-          reset               : in std_logic;                                       
+    port (i2clk               : in std_logic;                                                                        
           ---fuentes de interrupciÃ³n------                                        
           almost_full_irq   : out std_logic;                                      
           almost_empty_irq  : out std_logic;                                      
@@ -132,11 +158,20 @@ component samplefifo is
           in_ready          : out std_logic;                                      
           in_valid          : in std_logic;                                       
           in_data           : in std_logic_vector(ram_width - 1 downto 0);        
-          -- output interface                                                     
-          out_ready         : in std_logic;                                       
-          out_valid         : out std_logic;                                      
-          out_data          : out std_logic_vector(ram_width - 1 downto 0));      
+      --------------------- AXI-Stream-out-------------
+          aclk              : in  std_logic;
+          areset            : in  std_logic;
+          tvalid            : out std_logic;
+          tdata             : out std_logic_vector(7 downto 0);
+          tready            : in  std_logic;
+          tlast             : out std_logic;
+          tuser             : out std_logic;  
+          ---------------------------------------------------------
+          hdr_tvalid        : out std_logic;
+          hdr_tready        : in  std_logic      
+          );     
 end component;  
+
 
 
 --component string_gen_3 is
@@ -175,23 +210,23 @@ end component;
 --          hdr_checksum                  : out std_logic_vector(15 downto 0));          
 --end component;
 
-component string_gen_4 is
-    port (------------------------input interface-----------------------
-          in_ready                      : out std_logic;
-          in_valid                      : in std_logic;
-          in_data                       : in std_logic_vector(63 downto 0);          
-          -------------------------------- AXI-Stream-out-------------
-          aclk                          : in  std_logic;
-          areset                        : in  std_logic;
-          tvalid                        : out std_logic;
-          tdata                         : out std_logic_vector(7 downto 0);
-          tready                        : in  std_logic;
-          tlast                         : out std_logic;
-          tuser                         : out std_logic;       
-          ---------------------- AXI-Stream-hdr-out------------------------
-          hdr_tvalid                    : out std_logic;                     
-          hdr_tready                    : in  std_logic);          
-end component;
+--component string_gen_4 is
+--    port (------------------------input interface-----------------------
+--          in_ready                      : out std_logic;
+--          in_valid                      : in std_logic;
+--          in_data                       : in std_logic_vector(63 downto 0);          
+--          -------------------------------- AXI-Stream-out-------------
+--          aclk                          : in  std_logic;
+--          areset                        : in  std_logic;
+--          tvalid                        : out std_logic;
+--          tdata                         : out std_logic_vector(7 downto 0);
+--          tready                        : in  std_logic;
+--          tlast                         : out std_logic;
+--          tuser                         : out std_logic;       
+--          ---------------------- AXI-Stream-hdr-out------------------------
+--          hdr_tvalid                    : out std_logic;                     
+--          hdr_tready                    : in  std_logic);          
+--end component;
 ------------------------------------------------------------------------
 -- General control and timing signals
 ------------------------------------------------------------------------
@@ -213,14 +248,15 @@ signal wOutSignal0 : STD_LOGIC_VECTOR(15 downto 0);
 signal wOutSignal1 : STD_LOGIC_VECTOR(15 downto 0);
 signal wRetSignal0 : STD_LOGIC_VECTOR(15 downto 0);
 signal wRetSignal1 : STD_LOGIC_VECTOR(15 downto 0);
+signal wRetSignal2 : STD_LOGIC_VECTOR(15 downto 0);
 signal packed      : STD_LOGIC_VECTOR(63 downto 0);
 signal SDA_ctrl : STD_LOGIC;
 signal SCL_ctrl : STD_LOGIC;
-signal ready_timestamp :std_logic;
+signal ready_timestamp0, ready_timestamp1, ready_timestamp2  :    std_logic;
 signal output_valid           : STD_LOGIC;
  
-signal AD2_SCLAT, AD2_SCLBT, AD2_SCLCT  : 	    STD_LOGIC;
-signal AD2_SDAAT, AD2_SDABT, AD2_SDACT	: 	    STD_LOGIC;
+
+
  
  ------------------------------------------------------------------------
  -- fifo                                                    
@@ -255,100 +291,118 @@ signal in_data_string         : std_logic_vector(63 downto 0);
 ------------------------------------------------------------------------
 begin
 ----------------------------------------------------------------------Componentes----------------------------------------------
-analogReciever1: pmodAD2_ctrl PORT MAP(
+analogReciever1: pmodAD2_ctrl
+           generic map(
+           pmod_config         => "00010100")  
+           PORT MAP(
 		   mainClk             =>  clki2c,
 		   SDA_mst             =>  AD2_SDAA,
 		   SCL_mst             =>  AD2_SCLA,
 		   wData0              =>  wRetSignal0,
 		   rst                 =>  fRstRXCtrl,
-		   output_ready_p=>ready_timestamp);
+		   output_ready_p=>ready_timestamp0);
+analogReciever2: pmodAD2_ctrl
+           generic map(
+           pmod_config         => "00100100")  
+           PORT MAP(
+           mainClk             =>  clki2c,
+           SDA_mst             =>  AD2_SDAB,
+           SCL_mst             =>  AD2_SCLB,
+           wData0              =>  wRetSignal1,
+           rst                 =>  fRstRXCtrl,
+           output_ready_p=>ready_timestamp1);
+analogReciever3: pmodAD2_ctrl
+           generic map(
+           pmod_config         => "01000100") 
+           PORT MAP(
+           mainClk             =>  clki2c,
+           SDA_mst             =>  AD2_SDAC,
+           SCL_mst             =>  AD2_SCLC,
+           wData0              =>  wRetSignal2,
+           rst                 =>  fRstRXCtrl,
+           output_ready_p=>ready_timestamp2);
 		   
-timestamp_cnt: timestamp_patch Port map(         
-           clock               => sys_clock,
+timestamp_cnt: timestamp_patch_3 Port map(         
+           clock               => clki2c,
            reset               => fRstRXCtrl,
            -- input interface
-           in_ready            =>open,
-           in_valid            => ready_timestamp,
-           in_data             => wRetSignal0,
+           in_ready0            =>open,
+           in_valid0            => ready_timestamp0,
+           in_data0             => wRetSignal0,
+           -- input interface
+           in_ready1            =>open,
+           in_valid1            => ready_timestamp1,
+           in_data1             => wRetSignal1,
+           -- input interface
+           in_ready2            =>open,
+           in_valid2            => ready_timestamp2,
+           in_data2             => wRetSignal2,                                 
            -- output interface
            out_ready           => in_ready_fifo,
            out_valid           => output_valid,
            out_data            => packed); 
 
-fifo_comp: samplefifo generic map (ram_width => 64)                                                     
-           port map(clock      => sys_clock,
-           reset               => fRstRXCtrl,
-           ---fuentes de interrupción------
-           almost_full_irq     => almost_full_irq,
-           almost_empty_irq    => almost_empty_irq,
-           full_irq            => full_irq,
-           empty_irq           => empty_irq,
-           -- input interface          
-           in_ready            => in_ready_fifo,
-           in_valid            => output_valid,
-           in_data             => packed,
-           -- output interface      
-           out_ready           => out_ready_fifo,
-           out_valid           => out_valid_fifo,
-           out_data            => out_data_fifo);   
-                      
-                      
---string_generator: string_gen_3 port map(
+--fifo_comp: samplefifo generic map (ram_width => 64)                                                     
+--           port map(clock      => sys_clock,
+--           reset               => fRstRXCtrl,
+--           ---fuentes de interrupción------
+--           almost_full_irq     => almost_full_irq,
+--           almost_empty_irq    => almost_empty_irq,
+--           full_irq            => full_irq,
+--           empty_irq           => empty_irq,
+--           -- input interface          
+--           in_ready            => in_ready_fifo,
+--           in_valid            => output_valid,
+--           in_data             => packed,
+--           -- output interface      
+--           out_ready           => out_ready_fifo,
+--           out_valid           => out_valid_fifo,
+--           out_data            => out_data_fifo);   
+
+fifo_comp: fifo_comp_axi_s generic map (ram_width => 64)      
+           port map(i2clk      => clki2c,                         
+                    ---fuentes de interrupción------              
+                    almost_full_irq     => almost_full_irq,       
+                    almost_empty_irq    => almost_empty_irq,      
+                    full_irq            => full_irq,              
+                    empty_irq           => empty_irq,             
+                    -- input interface                            
+                    in_ready            => in_ready_fifo,         
+                    in_valid            => output_valid,          
+                    in_data             => packed,                
+---------------------Axi-Stream out interface-----------------------------------------
+                    aclk                          => sys_clock,
+                    areset                        => fRstRXCtrl,
+                    tvalid                        =>  tvalid,
+                    tdata                         =>  tdata,
+                    tready                        =>  tready,
+                    tlast                         =>  tlast,
+                    tuser                         =>  tuser,
+--------------------------------------------------------------------------------------
+                    hdr_tvalid                    =>  hdr_tvalid,
+                    hdr_tready                    =>  hdr_tready);
+
+--out_ready_string_n <= not out_ready_string;
+
+
+
+
+--string_generator: string_gen_4 port map(
 --           aclk                          =>  sys_clock,
 --           areset                        =>  fRstRXCtrl,
 -----------------------in interface-----------------------------------------------------
 --           in_ready                      =>  out_ready_fifo,
 --           in_valid                      =>  out_valid_fifo,
 --           in_data                       =>  out_data_fifo,
------------------------Axi-Stream out interface---------------------------------------
+-----------------------Axi-Stream out interface-----------------------------------------
 --           tvalid                        =>  tvalid,
 --           tdata                         =>  tdata,
 --           tready                        =>  tready,
 --           tlast                         =>  tlast,
 --           tuser                         =>  tuser,
---------------------------------------------------------------------------------------          
---           local_ip_addr                 =>       local_ip_addr   ,
---           dest_ip_addr                  =>       dest_ip_addr    ,
---           local_macaddr                 =>       local_macaddr   ,
---           dscp                          =>       dscp            ,
---           ttl                           =>       ttl             ,
---           ecn                           =>       ecn             ,
---           src_port                      =>       src_port        ,
---           dest_port                     =>       dest_port       ,
--------------------------------------------=>-----------------------------------------------------------------
---           hdr_tvalid                    =>       hdr_tvalid      ,
---           hdr_tready                    =>       hdr_tready      ,
---           hdr_ip_dscp                   =>       hdr_ip_dscp     ,
---           hdr_ip_ecn                    =>       hdr_ip_ecn      ,
---           hdr_ip_ttl                    =>       hdr_ip_ttl      ,
---           hdr_ip_source_ip              =>       hdr_ip_source_ip,
---           hdr_ip_dest_ip                =>       hdr_ip_dest_ip  ,
---           hdr_source_port               =>       hdr_source_port ,
---           hdr_dest_port                 =>       hdr_dest_port   ,
---           hdr_length                    =>       hdr_length      ,
---           hdr_checksum                  =>       hdr_checksum);                
-------------------------------------------------------conexiones---------------------------------------------------------  
---out_ready_string_n <= not out_ready_string;
-
-
-
-
-string_generator: string_gen_4 port map(
-           aclk                          =>  sys_clock,
-           areset                        =>  fRstRXCtrl,
----------------------in interface-----------------------------------------------------
-           in_ready                      =>  out_ready_fifo,
-           in_valid                      =>  out_valid_fifo,
-           in_data                       =>  out_data_fifo,
----------------------Axi-Stream out interface---------------------------------------
-           tvalid                        =>  tvalid,
-           tdata                         =>  tdata,
-           tready                        =>  tready,
-           tlast                         =>  tlast,
-           tuser                         =>  tuser,
------------------------------------------=>-----------------------------------------------------------------
-           hdr_tvalid                    =>       hdr_tvalid,
-           hdr_tready                    =>       hdr_tready);
-fRstRXCtrl  <= aresetn;
+----------------------------------------------------------------------------------------
+--           hdr_tvalid                    =>  hdr_tvalid,
+--           hdr_tready                    =>  hdr_tready);
+fRstRXCtrl  <= areset;
 sys_clock   <= aclk; 
 end Behavioral;

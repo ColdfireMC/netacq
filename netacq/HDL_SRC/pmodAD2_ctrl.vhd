@@ -48,6 +48,7 @@ Library UNISIM;
 use UNISIM.vcomponents.all;
 
 entity pmodAD2_ctrl is
+    generic(pmod_config     : in          std_logic_vector(7 downto 0));
     Port (mainClk	        : in		  STD_LOGIC;
           SDA_mst	        : inout	      STD_LOGIC;
           SCL_mst	        : inout	      STD_LOGIC;           
@@ -89,7 +90,7 @@ architecture Behavioral of pmodAD2_ctrl is
 	       
 	constant addrAD2	: STD_LOGIC_VECTOR(6 downto 0) := "0101000";
 --	constant writeCfg	: STD_LOGIC_VECTOR(7 downto 0) := "11110000";
-	constant writeCfg	: STD_LOGIC_VECTOR(7 downto 0) := "00010000";
+	--constant writeCfg	: STD_LOGIC_VECTOR(7 downto 0) := "00011100";
 	
 	signal waitCount : integer := 0;
     signal output_ready : STD_LOGIC;
@@ -126,12 +127,13 @@ output_ready_p<=output_ready;
 wdata0<=reg_output_data;
 	-- Tie together the bus
 	I2CBus: TWICtl
-		generic map (CLOCKFREQ =>125) -- System clock in MHz
+		generic map (CLOCKFREQ =>25) -- System clock in MHz
 		Port Map (
 		MSG_I =>		fMessage,
 		STB_I =>		fDoTransmit,
 		A_I =>			currentAddr, -- Address with read/write bit
-		D_I =>			writeCfg, -- The one and only output byte
+		--D_I =>			writeCfg, -- The one and only output byte
+		D_I   =>        pmod_config,
 		D_O =>			curResponse,
 		DONE_O =>		fDone,
 		ERR_O =>			open,

@@ -11,44 +11,47 @@ set_property -dict {LOC R4 IOSTANDARD LVCMOS33} [get_ports clk]
 create_clock -period 10.000 -name clk [get_ports clk]
 
 # LEDs
-#set_property -dict {LOC T14 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[0]}]
-#set_property -dict {LOC T15 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[1]}]
-#set_property -dict {LOC T16 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[2]}]
-#set_property -dict {LOC U16 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[3]}]
-#set_property -dict {LOC V15 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[4]}]
-#set_property -dict {LOC W16 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[5]}]
-#set_property -dict {LOC W15 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[6]}]
-#set_property -dict {LOC Y13 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[7]}]
+set_property -dict {LOC T14 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[0]}]
+set_property -dict {LOC T15 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[1]}]
+set_property -dict {LOC T16 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[2]}]
+set_property -dict {LOC U16 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[3]}]
+set_property -dict {LOC V15 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[4]}]
+set_property -dict {LOC W16 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[5]}]
+set_property -dict {LOC W15 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[6]}]
+set_property -dict {LOC Y13 IOSTANDARD LVCMOS25 SLEW SLOW DRIVE 12} [get_ports {led[7]}]
 
 # Reset button
 set_property -dict {LOC G4 IOSTANDARD LVCMOS15} [get_ports reset_n]
 
-
 set_property -dict {PACKAGE_PIN AB20 IOSTANDARD LVCMOS33} [get_ports AD2_SCLA]
 set_property -dict {PACKAGE_PIN AB18 IOSTANDARD LVCMOS33} [get_ports AD2_SDAA]
 
+set_property -dict {PACKAGE_PIN V7 IOSTANDARD LVCMOS33} [get_ports AD2_SCLB]
+set_property -dict {PACKAGE_PIN W7 IOSTANDARD LVCMOS33} [get_ports AD2_SDAB]
 
+set_property -dict {PACKAGE_PIN AA8 IOSTANDARD LVCMOS33} [get_ports AD2_SCLC]
+set_property -dict {PACKAGE_PIN AB8 IOSTANDARD LVCMOS33} [get_ports AD2_SDAC]
 
 # Push buttons
-#set_property -dict {LOC F15 IOSTANDARD LVCMOS12} [get_ports btnu]
-#set_property -dict {LOC C22 IOSTANDARD LVCMOS12} [get_ports btnl]
-#set_property -dict {LOC D22 IOSTANDARD LVCMOS12} [get_ports btnd]
-#set_property -dict {LOC D14 IOSTANDARD LVCMOS12} [get_ports btnr]
-#set_property -dict {LOC B22 IOSTANDARD LVCMOS12} [get_ports btnc]
+set_property -dict {LOC F15 IOSTANDARD LVCMOS12} [get_ports btnu]
+set_property -dict {LOC C22 IOSTANDARD LVCMOS12} [get_ports btnl]
+set_property -dict {LOC D22 IOSTANDARD LVCMOS12} [get_ports btnd]
+set_property -dict {LOC D14 IOSTANDARD LVCMOS12} [get_ports btnr]
+set_property -dict {LOC B22 IOSTANDARD LVCMOS12} [get_ports btnc]
 
 # Toggle switches
-#set_property -dict {LOC E22 IOSTANDARD LVCMOS12} [get_ports {sw[0]}]
-#set_property -dict {LOC F21 IOSTANDARD LVCMOS12} [get_ports {sw[1]}]
-#set_property -dict {LOC G21 IOSTANDARD LVCMOS12} [get_ports {sw[2]}]
-#set_property -dict {LOC G22 IOSTANDARD LVCMOS12} [get_ports {sw[3]}]
-#set_property -dict {LOC H17 IOSTANDARD LVCMOS12} [get_ports {sw[4]}]
-#set_property -dict {LOC J16 IOSTANDARD LVCMOS12} [get_ports {sw[5]}]
-#set_property -dict {LOC K13 IOSTANDARD LVCMOS12} [get_ports {sw[6]}]
-#set_property -dict {LOC M17 IOSTANDARD LVCMOS12} [get_ports {sw[7]}]
+set_property -dict {LOC E22 IOSTANDARD LVCMOS12} [get_ports {sw[0]}]
+set_property -dict {LOC F21 IOSTANDARD LVCMOS12} [get_ports {sw[1]}]
+set_property -dict {LOC G21 IOSTANDARD LVCMOS12} [get_ports {sw[2]}]
+set_property -dict {LOC G22 IOSTANDARD LVCMOS12} [get_ports {sw[3]}]
+set_property -dict {LOC H17 IOSTANDARD LVCMOS12} [get_ports {sw[4]}]
+set_property -dict {LOC J16 IOSTANDARD LVCMOS12} [get_ports {sw[5]}]
+set_property -dict {LOC K13 IOSTANDARD LVCMOS12} [get_ports {sw[6]}]
+set_property -dict {LOC M17 IOSTANDARD LVCMOS12} [get_ports {sw[7]}]
 
 # UART
-#set_property -dict {LOC AA19 IOSTANDARD LVCMOS33 SLEW SLOW DRIVE 12} [get_ports uart_txd]
-#set_property -dict {LOC V18 IOSTANDARD LVCMOS33} [get_ports uart_rxd]
+set_property -dict {LOC AA19 IOSTANDARD LVCMOS33 SLEW SLOW DRIVE 12} [get_ports uart_txd]
+set_property -dict {LOC V18 IOSTANDARD LVCMOS33} [get_ports uart_rxd]
 
 # Gigabit Ethernet RGMII PHY
 set_property -dict {LOC V13 IOSTANDARD LVCMOS25} [get_ports phy_rx_clk]

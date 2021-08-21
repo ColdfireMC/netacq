@@ -29,7 +29,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 use IEEE.math_real.all;
-
+library UNISIM;
+use UNISIM.VComponents.all;
 entity TWICtl is
 ----------------------------------------------------------------------------------
 -- Title : Mode of operation
@@ -93,7 +94,7 @@ architecture Behavioral of TWICtl is
 	type busState_type is (busUnknown, busBusy, busFree);
 	type error_type is (errArb, errNAck);
 
-	constant FSCL : natural := 400_000; --in Hz SCL clock frequency
+	constant FSCL : natural := 3_000_000; --in Hz SCL clock frequency
 	constant TIMEOUT : natural := 10; --in ms TWI timeout for slave wait period
 	constant TSCL_CYCLES : natural := 
 		natural(ceil(real(CLOCKFREQ*1_000_000/FSCL)));
