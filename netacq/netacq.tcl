@@ -174,7 +174,7 @@ if { [info exists ::origin_dir_loc] } {
 }
 
 # Set the project name
-set _xil_proj_name_ "verilog_ethernet_acq_1"
+set _xil_proj_name_ "netacq"
 
 # Use project name variable, if specified in the tcl shell
 if { [info exists ::user_project_name] } {
@@ -182,7 +182,7 @@ if { [info exists ::user_project_name] } {
 }
 
 variable script_file
-set script_file "verilog_ethernet_acq_1.tcl"
+set script_file "netacq.tcl"
 
 # Help information for this script
 proc print_help {} {
